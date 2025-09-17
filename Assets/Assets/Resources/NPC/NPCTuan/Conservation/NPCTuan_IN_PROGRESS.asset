@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318c5d99a71aed9408ed957fc30a9555, type: 3}
+  m_Name: NPCTuan_IN_PROGRESS
+  m_EditorClassIdentifier: 
+  conservationId: IN_PROGRESS_QuestCollectEmoticon_step2
+  npcState: 2
+  questId: QuestCollectEmoticon
+  stepId: step2
+  startFromFirstDialog: 1
+  dialogs:
+  - dialogId: dialog1
+    message: "Em v\u1EABn ch\u01B0a t\xECm \u0111\u1EE7 c\xE1c ng\xF4i sao h\u1EA3?
+      C\xE1c ng\xF4i sao c\xF3 th\u1EC3 s\u1EBD n\u1EB1m \u1EDF nh\u1EEFng n\u01A1i
+      em kh\xF4ng ng\u1EDD t\u1EDBi. H\xE3y c\u1ED1 g\u1EAFng t\xECm th\u1EADt k\u0129
+      nh\xE9."
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "V\xE2ng \u1EA1"
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: 
+      executedFunction: 1
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}

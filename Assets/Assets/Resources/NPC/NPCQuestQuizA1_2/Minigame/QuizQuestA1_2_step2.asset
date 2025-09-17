@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8675033c89e01e045840dacd37af3fa5, type: 3}
+  m_Name: QuizQuestA1_2_step2
+  m_EditorClassIdentifier: 
+  minigameId: QuizQuestA1_2_step2
+  questId: QuizQuestA1_2
+  stepId: step2
+  targetNPC: {fileID: 0}
+  numberOfQuestion: 8
+  numberOfMaxWrong: 2
+  qnas:
+  - Question: "H\u1ECDc vi\u1EC7n c\xF3 bao nhi\xEAu c\u01A1 s\u1EDF?"
+    Answers:
+    - 3
+    - 5
+    - 7
+    - 9
+    CorrectAnswer: 4
+    Explaination: "H\u1ECDc vi\u1EC7n c\xF3 t\u1ED5ng c\u1ED9ng <color=#06FFE6>9
+      c\u01A1 s\u1EDF</color>, n\u1EB1m t\u1EA1i th\xE0nh ph\u1ED1 H\xE0 N\u1ED9i
+      v\xE0 th\xE0nh ph\u1ED1 H\u1ED3 Ch\xED Minh."
+    QuestionImage: {fileID: 0}
+  - Question: "H\u1ECDc vi\u1EC7n hi\u1EC7n \u0111ang tr\u1EF1c thu\u1ED9c b\u1ED9
+      n\xE0o? "
+    Answers:
+    - "B\u1ED9 Gi\xE1o d\u1EE5c v\xE0 \u0110\xE0o t\u1EA1o "
+    - "B\u1ED9 Th\xF4ng tin v\xE0 Truy\u1EC1n th\xF4ng "
+    - "B\u1ED9 Khoa h\u1ECDc v\xE0 C\xF4ng ngh\u1EC7"
+    - "B\u1ED9 Ngo\u1EA1i giao "
+    CorrectAnswer: 3
+    Explaination: "H\u1ECDc vi\u1EC7n hi\u1EC7n t\u1EA1i \u0111ang tr\u1EF1c thu\u1ED9c
+      <color=#06FFE6>B\u1ED9 Khoa h\u1ECDc v\xE0 C\xF4ng ngh\u1EC7</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "H\u1ECDc vi\u1EC7n l\xE0 1 trong top 3 tr\u01B0\u1EDDng h\xE0ng \u0111\u1EA7u
+      mi\u1EC1n B\u1EAFc v\u1EC1 \u0111\xE0o t\u1EA1o chuy\xEAn ng\xE0nh n\xE0o? "
+    Answers:
+    - "Qu\u1EA3n tr\u1ECB kinh doanh "
+    - "C\xF4ng ngh\u1EC7 th\xF4ng tin "
+    - "Vi\u1EC5n th\xF4ng "
+    - "Truy\u1EC1n th\xF4ng \u0111a ph\u01B0\u01A1ng ti\u1EC7n "
+    CorrectAnswer: 2
+    Explaination: "H\u1ECDc vi\u1EC7n l\xE0 1 trong 3 tr\u01B0\u1EDDng h\xE0ng \u0111\u1EA7u
+      mi\u1EC1n B\u1EAFc v\u1EC1 \u0111\xE0o t\u1EA1o chuy\xEAn ng\xE0nh <color=#06FFE6>C\xF4ng
+      ngh\u1EC7 th\xF4ng tin</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "T\u1EA1i PTIT, CDIT l\xE0 b\u1ED9 ph\u1EADn g\xEC? "
+    Answers:
+    - "Vi\u1EC7n K\u1EF9 thu\u1EADt B\u01B0u \u0111i\u1EC7n "
+    - "M\u1ED9t c\xE2u l\u1EA1c b\u1ED9 "
+    - "Vi\u1EC7n C\xF4ng ngh\u1EC7 Th\xF4ng tin v\xE0 Truy\u1EC1n th\xF4ng "
+    - "Vi\u1EC7n Kinh T\u1EBF B\u01B0u \u0111i\u1EC7n"
+    CorrectAnswer: 3
+    Explaination: "CDIT l\xE0 <color=#06FFE6>Vi\u1EC7n C\xF4ng ngh\u1EC7 Th\xF4ng
+      tin v\xE0 Truy\u1EC1n th\xF4ng</color> tr\u1EF1c thu\u1ED9c H\u1ECDc vi\u1EC7n
+      C\xF4ng ngh\u1EC7 B\u01B0u ch\xEDnh Vi\u1EC5n th\xF4ng PTIT."
+    QuestionImage: {fileID: 0}
+  - Question: "Vi\u1EC7n C\xF4ng ngh\u1EC7 th\xF4ng tin v\xE0 Truy\u1EC1n th\xF4ng
+      CDIT th\xE0nh l\u1EADp n\u0103m n\xE0o?"
+    Answers:
+    - 1999
+    - 2000
+    - 1997
+    - 1954
+    CorrectAnswer: 1
+    Explaination: "Vi\u1EC7n C\xF4ng ngh\u1EC7 th\xF4ng tin v\xE0 Truy\u1EC1n th\xF4ng
+      CDIT \u0111\u01B0\u1EE3c th\xE0nh l\u1EADp v\xE0o n\u0103m <color=#06FFE6>1999</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "Gi\xE1m \u0111\u1ED1c hi\u1EC7n t\u1EA1i c\u1EE7a H\u1ECDc vi\u1EC7n
+      l\xE0 th\u1EA7y ?"
+    Answers:
+    - "PGS.TS Nguy\u1EC5n Quang Anh"
+    - "TS. V\u0169 V\u0103n San"
+    - "TS. V\u0169 Tu\u1EA5n L\xE2m"
+    - "PGS. TS. \u0110\u1EB7ng Ho\xE0i B\u1EAFc"
+    CorrectAnswer: 4
+    Explaination: "Gi\xE1m \u0111\u1ED1c hi\u1EC7n t\u1EA1i c\u1EE7a H\u1ECDc vi\u1EC7n
+      l\xE0 <color=#06FFE6>PGS. TS. \u0110\u1EB7ng Ho\xE0i B\u1EAFc</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "H\u1ECDc vi\u1EC7n c\xF3 t\u1EA5t c\u1EA3 bao nhi\xEAu ph\xF3 Gi\xE1m
+      \u0110\u1ED1c \u1EDF c\u1EA3 2 c\u01A1 s\u1EDF?"
+    Answers:
+    - 6
+    - 5
+    - 3
+    - 2
+    CorrectAnswer: 4
+    Explaination: "H\u1ECDc vi\u1EC7n c\xF3 t\u1EA5t c\u1EA3 <color=#06FFE6>2 ph\xF3
+      Gi\xE1m \u0110\u1ED1c</color> \u1EDF c\u1EA3 2 c\u01A1 s\u1EDF."
+    QuestionImage: {fileID: 0}
+  - Question: "An to\xE0n th\xF4ng tin l\xE0 khoa \u0111\u01B0\u1EE3c t\xE1ch ra
+      t\u1EEB khoa?"
+    Answers:
+    - "Truy\u1EC1n th\xF4ng \u0111a ph\u01B0\u01A1ng ti\u1EC7n"
+    - "C\xF4ng ngh\u1EC7 th\xF4ng tin"
+    - "Qu\u1EA3n tr\u1ECB kinh doanh"
+    - "Vi\u1EC5n th\xF4ng"
+    CorrectAnswer: 2
+    Explaination: "Khoa an to\xE0n th\xF4ng tin l\xE0 khoa \u0111\u01B0\u1EE3c t\xE1ch
+      ra t\u1EEB <color=#06FFE6>khoa C\xF4ng ngh\u1EC7 th\xF4ng tin</color> c\u1EE7a
+      H\u1ECDc vi\u1EC7n."
+    QuestionImage: {fileID: 0}
+  - Question: "Ng\xE0nh Truy\u1EC1n th\xF4ng \u0111a ph\u01B0\u01A1ng ti\u1EC7n ch\xEDnh
+      th\u1EE9c t\xE1ch ra kh\u1ECFi C\xF4ng ngh\u1EC7 \u0110a ph\u01B0\u01A1ng ti\u1EC7n
+      k\u1EC3 t\u1EEB n\u0103m n\xE0o ?"
+    Answers:
+    - 2017
+    - 2016
+    - 2015
+    - 2014
+    CorrectAnswer: 3
+    Explaination: "Ng\xE0nh Truy\u1EC1n th\xF4ng \u0111a ph\u01B0\u01A1ng ti\u1EC7n
+      ch\xEDnh th\u1EE9c \u0111\u01B0\u1EE3c t\xE1ch ra kh\u1ECFi ng\xE0nh C\xF4ng
+      ngh\u1EC7 \u0110a ph\u01B0\u01A1ng ti\u1EC7n k\u1EC3 t\u1EEB <color=#06FFE6>n\u0103m
+      2015</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "H\u1ECDc vi\u1EC7n C\xF4ng Ngh\u1EC7 B\u01B0u ch\xEDnh Vi\u1EC5n th\xF4ng
+      c\xF3 t\u1EA5t c\u1EA3 bao nhi\xEAu ng\xE0nh \u0111\xE0o t\u1EA1o?"
+    Answers:
+    - 22
+    - 25
+    - 24
+    - 28
+    CorrectAnswer: 3
+    Explaination: "H\u1ECDc vi\u1EC7n C\xF4ng ngh\u1EC7 B\u01B0u ch\xEDnh Vi\u1EC5n
+      Th\xF4ng c\xF3 t\u1EA5t c\u1EA3 <color=#06FFE6>24 ng\xE0nh \u0111\xE0o t\u1EA1o</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "Ng\xE0nh K\u0129 thu\u1EADt \u0111i\u1EC7n t\u1EED - truy\u1EC1n th\xF4ng
+      khi v\xE0o H\u1ECDc vi\u1EC7n th\u01B0\u1EDDng hay \u0111\u01B0\u1EE3c g\u1ECDi
+      l\xE0 g\xEC?"
+    Answers:
+    - "C\xF4ng Ngh\u1EC7 Th\xF4ng Tin"
+    - "Vi\u1EC5n Th\xF4ng"
+    - "\u0110a Ph\u01B0\u01A1ng Ti\u1EC7n"
+    - "An To\xE0n Th\xF4ng Tin"
+    CorrectAnswer: 2
+    Explaination: "Ng\xE0nh K\u0129 thu\u1EADt \u0111i\u1EC7n t\u1EED - truy\u1EC1n
+      th\xF4ng khi v\xE0o H\u1ECDc vi\u1EC7n th\u01B0\u1EDDng hay \u0111\u01B0\u1EE3c
+      g\u1ECDi l\xE0 <color=#06FFE6>ng\xE0nh Vi\u1EC5n Th\xF4ng</color>."
+    QuestionImage: {fileID: 0}
+  quizIntro:
+    dialogId: intro
+    message: "Ok v\u1EADy m\xECnh b\u1EAFt \u0111\u1EA7u nh\xE9. C\xF4 s\u1EBD c\xF3
+      t\u1EA5t c\u1EA3 8 c\xE2u h\u1ECFi li\xEAn quan \u0111\u1EBFn <color=#06FFE6>c\xE1c
+      m\xF4 h\xECnh, c\u01A1 c\u1EA5u t\u1ED5 ch\u1EE9c</color> c\u1EE7a H\u1ECDc
+      vi\u1EC7n m\xECnh. H\xE3y l\u01B0u \xFD em ch\u1EC9 \u0111\u01B0\u1EE3c ph\xE9p
+      tr\u1EA3 l\u1EDDi sai t\u1ED1i \u0111a 3 c\xE2u."
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "V\xE2ng \u1EA1"
+      icon: {fileID: 0}
+      nextDialogId: 
+      executedFunction: 14
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}

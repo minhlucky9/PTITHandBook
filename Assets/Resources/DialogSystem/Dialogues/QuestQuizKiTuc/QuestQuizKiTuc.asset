@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bde469a0977f4488098765bf5c53d6, type: 3}
+  m_Name: QuestQuizKiTuc
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: QuestQuizKiTuc
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: 9fe5b339fa0a10e4eb5951ea10f68243, type: 2}
+      Value:
+      - {fileID: 11400000, guid: eddc0c1ff1d86634ba7abb4ade6ded04, type: 2}
+      - {fileID: 11400000, guid: c1f32c99e4d2b5b43982933438d32428, type: 2}
+      - {fileID: 11400000, guid: 6b52ad847f986344f8bcccd30a663f5f, type: 2}
+      - {fileID: 11400000, guid: 0229226679637d8469f476678395e6a3, type: 2}
+    - Key: {fileID: 11400000, guid: 7814583f94a6f3146ab7aaa404877cda, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 6473551a4926775438710d6d93d62663, type: 2}
+      - {fileID: 11400000, guid: 4d49f8bb0444724419cd1d841dd7bc79, type: 2}
+    - Key: {fileID: 11400000, guid: ccfda78aecf640e47827acc812a1b679, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 0a3182ac3bcc8764abf32a3f009890d2, type: 2}
+      - {fileID: 11400000, guid: 9bdecaa6825f5e24abca66f319414070, type: 2}
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: f4c3546cb4424894aa3d2e539c901867, type: 2}
+  - {fileID: 11400000, guid: d041b17de72aec141a1245f528e2143b, type: 2}
+  - {fileID: 11400000, guid: 73d76f35eb6726a4f8a450c46b98444d, type: 2}
+  - {fileID: 11400000, guid: 5a49e599d953b344e8e04181e7ae6c00, type: 2}

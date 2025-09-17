@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor%20Default%20Resources/DialogSystem/DSGraphViewStyles.uss?fileID=7433441132597879392&amp;guid=a8a3e8bd0340a654eb9db0709ed76c7d&amp;type=3#DSGraphViewStyles" />
+    <ui:VisualElement style="flex-grow: 1;" />
+</ui:UXML>

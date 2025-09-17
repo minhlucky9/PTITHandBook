@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b8fb76b99894d48bb526e5bb6840c2, type: 3}
+  m_Name: QuestMazeToTop
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: QuestMazeToTop
+  displayName: "Leo th\xE1p"
+  levelRequirement: 1
+  questPrerequisites: []
+  questSteps:
+  - stepId: step1
+    missionType: 0
+    stepName: "\u0110\u1EE9c c\xF3 chuy\u1EC7n mu\u1ED1n n\xF3i v\u1EDBi b\u1EA1n"
+    stepDescription: "H\xE3y t\xECm \u0110\u1EE9c \u0111ang \u0111\u1EE9ng \u1EDF
+      tr\u01B0\u1EDBc c\u1EEDa nh\xE0 A3, \u0111\u1EC3 b\u1EAFt \u0111\u1EA7u nhi\u1EC7m
+      v\u1EE5"
+    npcId: NPCMazeToTop
+    npcStatus: 1
+    conservation: {fileID: 11400000, guid: 9f6a3b5ad3335c248885db5dbebe3ada, type: 2}
+    nextStep: step2
+  - stepId: step2
+    missionType: 1
+    stepName: "Leo l\xEAn \u0111\u1EC9nh th\xE1p"
+    stepDescription: "Leo l\xEAn \u0111\u1EC9nh th\xE1p \u0111\u1EC3 nh\u1EADn ph\u1EA7n
+      qu\xE0 t\u1EEB \u0110\u1EE9c"
+    npcId: NPCMazeToTop
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: f3de25850ccbc4949b57c9ff82331d59, type: 2}
+    nextStep: step3
+  - stepId: step3
+    missionType: 0
+    stepName: "G\u1EB7p \u0110\u1EE9c \u0111\u1EC3 nh\u1EADn ph\u1EA7n th\u01B0\u1EDFng"
+    stepDescription: "\u0110\u1EBFn g\u1EB7p \u0110\u1EE9c, \u0111\u1EC3 nh\u1EADn
+      ph\u1EA7n th\u01B0\u1EDFng x\u1EE9ng \u0111\xE1ng cho s\u1EF1 c\u1ED1 g\u1EAFng
+      c\u1EE7a b\u1EA1n."
+    npcId: NPCMazeToTop
+    npcStatus: 3
+    conservation: {fileID: 11400000, guid: 2d29f5c7f6b0fae49b2c3344ff085078, type: 2}
+    nextStep: 
+  goldReward: 50
+  experienceReward: 250
+  itemRewards: []
+  questType: 0

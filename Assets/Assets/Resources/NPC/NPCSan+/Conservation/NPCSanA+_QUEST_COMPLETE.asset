@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318c5d99a71aed9408ed957fc30a9555, type: 3}
+  m_Name: NPCSanA+_QUEST_COMPLETE
+  m_EditorClassIdentifier: 
+  conservationId: QUEST_COMPLETE_QuestSanA+_step7
+  npcState: 3
+  questId: QuestSanA+
+  stepId: step7
+  startFromFirstDialog: 1
+  dialogs:
+  - dialogId: dialog1
+    message: "X\u1ECBn \u0111\u1EA5y! Anh m\u1EDBi ch\u1EC9 h\u01B0\u1EDBng th\xF4i
+      m\xE0 em l\xE0m \u0111\u01B0\u1EE3c th\u1EBF n\xE0y th\xEC ch\u1EAFc ch\u1EAFn
+      l\xE0 sinh vi\xEAn PTIT ch\xEDnh hi\u1EC7u r\u1ED3i! Gi\u1EDD em thi \u0111i
+      \u2013 nh\u1EDB nhai b\xE1nh m\xEC tr\u01B0\u1EDBc khi v\xE0o ph\xF2ng thi
+      nh\xE9!"
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "Em c\u1EA3m \u01A1n a \u1EA1."
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: 
+      executedFunction: 6
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318c5d99a71aed9408ed957fc30a9555, type: 3}
+  m_Name: NPCQuestQuizKTXB5_NORMAL
+  m_EditorClassIdentifier: 
+  conservationId: NORMAL
+  npcState: 0
+  questId: 
+  stepId: 
+  startFromFirstDialog: 0
+  dialogs:
+  - dialogId: dialog1
+    message: "Ch\xE0o em. \nCh\xFAc em c\xF3 m\u1ED9t ng\xE0y t\u1ED1t l\xE0nh."
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "Em c\u1EA3m \u01A1n ch\u1ECB \u1EA1."
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: 
+      executedFunction: 1
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}

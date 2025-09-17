@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b428b8e278e3f47b92553995e985de, type: 3}
+  m_Name: test1Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: test1
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 7d1fd976-0c77-4b77-9aba-fb67e55db30e
+    <Name>k__BackingField: NORMAL
+    <Position>k__BackingField: {x: 1432.7999, y: -272}
+  - <ID>k__BackingField: dd00736e-f500-41ee-a7b9-94b3902035b6
+    <Name>k__BackingField: INPROGRESS
+    <Position>k__BackingField: {x: 3474.4, y: -60}
+  - <ID>k__BackingField: 9d30e448-0956-48e1-8d5c-a97f49d7f62a
+    <Name>k__BackingField: AfterFinish
+    <Position>k__BackingField: {x: 1443.1998, y: 396.8}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 4cb0ce11-6868-47e6-956c-c38f278ce99e
+    <Name>k__BackingField: node2
+    <Text>k__BackingField: zzzzz
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: d0363c0f-6df2-4de2-baa9-52ee777e94cc
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 439.2, y: 4}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: d0363c0f-6df2-4de2-baa9-52ee777e94cc
+    <Name>k__BackingField: node3
+    <Text>k__BackingField: Dialogue text.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 4a088501-6d64-44b5-8aa2-0fe9e63fbc6b
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 826.4, y: -194.4}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: c4ba33f6-f802-46ba-9be7-8a339728ca15
+    <Name>k__BackingField: node1
+    <Text>k__BackingField: zzzz
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 4cb0ce11-6868-47e6-956c-c38f278ce99e
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 135.2, y: -12.000001}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: 34d70b4a-f955-4ddd-9214-e9a4ceb13d83
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: "Xin ch\xE0o, em l\xE0 t\xE2n sinh vi\xEAn m\u1EDBi v\xE0o
+      tr\u01B0\u1EDDng \u0111\xFAng kh\xF4ng"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "D, \u0111\xFAng r\u1ED3i th\u1EA7y \u1EA1"
+      <NodeID>k__BackingField: e37b1b45-3d51-4462-a222-32ef14356dc4
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    - <Text>k__BackingField: "D\u1EA1, em h\u1ECDc tr\u01B0\u1EDDng kh\xE1c \u1EA1"
+      <NodeID>k__BackingField: 19311275-f68b-4ce4-a5dd-b4f8b8c3925d
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: 7d1fd976-0c77-4b77-9aba-fb67e55db30e
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1458.3999, y: -99.2}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: e37b1b45-3d51-4462-a222-32ef14356dc4
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: "T\xF4i c\xF3 m\u1ED9t s\u1ED1 c\xE2u h\u1ECFi, h\xE3y
+      tr\u1EA3 l\u1EDDi \u0111\u1EC3 xem \u0111\u1ED9 hi\u1EC3u bi\u1EBFt c\u1EE7a
+      em v\u1EC1 tr\u01B0\u1EDDng \u0111\u1EBFn \u0111\xE2u nh\xE9."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "V\xE2ng \u1EA1"
+      <NodeID>k__BackingField: 35d7635d-e7e2-4930-bfb9-f3588158d61a
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: 7d1fd976-0c77-4b77-9aba-fb67e55db30e
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1924, y: -212}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: 19311275-f68b-4ce4-a5dd-b4f8b8c3925d
+    <Name>k__BackingField: 3
+    <Text>k__BackingField: "Th\xEC ra l\xE0 v\u1EADy. Mong em c\xF3 kho\u1EA3ng th\u1EDDi
+      gian vui v\u1EBB t\u1EA1i tr\u01B0\u1EDDng."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "V\xE2ng \u1EA1, em ch\xE0o th\u1EA7y."
+      <NodeID>k__BackingField: 
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: 7d1fd976-0c77-4b77-9aba-fb67e55db30e
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1975.2, y: 87.2}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: 4a088501-6d64-44b5-8aa2-0fe9e63fbc6b
+    <Name>k__BackingField: node4
+    <Text>k__BackingField: Dialogue text.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 832, y: 259.19998}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: 35d7635d-e7e2-4930-bfb9-f3588158d61a
+    <Name>k__BackingField: 4
+    <Text>k__BackingField: "C\xE1c th\xF4ng tin v\u1EC1 c\xE2u h\u1ECFi n\u1EB1m
+      trong ph\u1EA7n \"T\xECm hi\u1EC3u kh\xE1i qu\xE1t v\u1EC1 H\u1ECDc Vi\u1EC7n\"
+      n\u1EB1m trong \u0111i\u1EC7n tho\u1EA1i c\u1EE7a em. H\xE3y quay l\u1EA1i
+      g\u1EB7p th\u1EA7y khi em \u0111\xE3 s\u1EB5n s\xE0ng."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "V\xE2ng \u1EA1, em ch\xE0o th\u1EA7y."
+      <NodeID>k__BackingField: 
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: 7d1fd976-0c77-4b77-9aba-fb67e55db30e
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2491.2, y: -35.2}
+    <ExecutedFunction>k__BackingField: 2
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: ae555d6a-8b91-4bba-9403-99ca7b5604dc
+    <Name>k__BackingField: a
+    <Text>k__BackingField: "Ch\xFAc m\u1EEBng em \u0111\xE3 ho\xE0n th\xE0nh xong
+      c\xE2u h\u1ECFi. H\xE3y ti\u1EBFp t\u1EE5c \u0111i tham quan tr\u01B0\u1EDDng
+      nh\xE9"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "V\xE2ng \u1EA1"
+      <NodeID>k__BackingField: 9b193d57-00c1-4714-95c6-87149bb64416
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: 9d30e448-0956-48e1-8d5c-a97f49d7f62a
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1468.7999, y: 456.8}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: 9b193d57-00c1-4714-95c6-87149bb64416
+    <Name>k__BackingField: b
+    <Text>k__BackingField: "Nh\u1EDB l\xE0 ph\u1EA3i l\xEAn CDIT \u0111\u1EC3 c\u1EA3m
+      \u01A1n th\u1EA7y Minh nh\xE9"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "V\xE2ng \u1EA1"
+      <NodeID>k__BackingField: 
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: 9d30e448-0956-48e1-8d5c-a97f49d7f62a
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2096, y: 500.8}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: 91bf41c6-99af-4fdd-8dcc-a67614ca5303
+    <Name>k__BackingField: 5
+    <Text>k__BackingField: "Em \u0111\xE3 chu\u1EA9n b\u1ECB s\u1EB5n s\xE0ng r\u1ED3i
+      ch\u1EE9?"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "D\u1EA1, em s\u1EB5n s\xE0ng r\u1ED3i \u1EA1"
+      <NodeID>k__BackingField: 
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    - <Text>k__BackingField: "D\u1EA1, em ch\u01B0a"
+      <NodeID>k__BackingField: ace466f4-1f1f-443f-a4a1-20116f3b02ea
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: dd00736e-f500-41ee-a7b9-94b3902035b6
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3500, y: 0}
+    <ExecutedFunction>k__BackingField: 3
+    <NextExecutedFunction>k__BackingField: 2
+  - <ID>k__BackingField: ace466f4-1f1f-443f-a4a1-20116f3b02ea
+    <Name>k__BackingField: 6
+    <Text>k__BackingField: "V\u1EADy th\xEC h\xE3y b\xE1o th\u1EA7y khi em chu\u1EA9n
+      b\u1ECB s\u1EB5n s\xE0ng nh\xE9"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "V\xE2ng em ch\xE0o th\u1EA7y \u1EA1"
+      <NodeID>k__BackingField: 
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+    <GroupID>k__BackingField: dd00736e-f500-41ee-a7b9-94b3902035b6
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3960.8, y: 137.6}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  <OldGroupNames>k__BackingField:
+  - NORMAL
+  - INPROGRESS
+  - AfterFinish
+  <OldUngroupedNodeNames>k__BackingField:
+  - node2
+  - node3
+  - node1
+  - node4
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: NORMAL
+      Value:
+      - 1
+      - 2
+      - 3
+      - 4
+    - Key: AfterFinish
+      Value:
+      - a
+      - b
+    - Key: INPROGRESS
+      Value:
+      - 5
+      - 6

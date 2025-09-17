@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d7b3738a990024995e32e354368843, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: 2
+  <Text>k__BackingField: "Em \u0111\xE3 nghe b\xE0i h\xE1t \"Vinh quang h\u1ECDc
+    vi\u1EC7n ch\u01B0a\""
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: "D\u1EA1 em ch\u01B0a"
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 307db286335dc5049a986f2e61a563db,
+      type: 2}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+    <Icon>k__BackingField: {fileID: 0}
+  - <Text>k__BackingField: "D\u1EA1 em nghe r\u1ED3i \u1EA1"
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 06f747d7e8888034fb52725bd899a1e4,
+      type: 2}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+    <Icon>k__BackingField: {fileID: 0}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
+  <Icon>k__BackingField: {fileID: 0}
+  <ExecutedFunction>k__BackingField: 0
+  <NextExecutedFunction>k__BackingField: 0

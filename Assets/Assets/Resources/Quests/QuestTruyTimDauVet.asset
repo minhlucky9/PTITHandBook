@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b8fb76b99894d48bb526e5bb6840c2, type: 3}
+  m_Name: QuestTruyTimDauVet
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: QuestTruyTimDauVet
+  displayName: "Truy T\xECm gi\u1EA5u v\u1EBFt"
+  levelRequirement: 0
+  questPrerequisites:
+  - {fileID: 11400000, guid: 9164563b28b4da649adcfc569694e7e3, type: 2}
+  questSteps:
+  - stepId: step1
+    missionType: 0
+    stepName: "G\u1EB7p Lan Anh tr\u01B0\u1EDBc nh\xE0 A1"
+    stepDescription: "Lan Anh, c\xE1n b\u1ED9 \u0110o\xE0n tr\u01B0\u1EDDng \u0111ang
+      c\u1EA7n b\u1EA1n gi\xFAp \u0111\u1EE1. H\xE3y \u0111\u1EBFn v\xE0 g\u1EB7p
+      c\xF4 \u1EA5y \u1EDF tr\u01B0\u1EDBc c\u1EEDa nh\xE0 A1"
+    npcId: NPCTruyTimGiauVet
+    npcStatus: 1
+    conservation: {fileID: 11400000, guid: 11b16042289686d4185d6797772e1ed3, type: 2}
+    nextStep: step2
+  - stepId: step2
+    missionType: 1
+    stepName: "Nh\u1EB7t \xC1p ph\xEDch tuy\xEAn truy\u1EC1n \u201CKh\xF4ng chia
+      s\u1EBB OTP\u201D"
+    stepDescription: "H\xECnh \u1EA3nh \u0111\u1EA7u ti\xEAn n\u1EB1m \u1EDF c\u1ED5ng
+      h\u1ECDc vi\u1EC7n. H\xE3y ra \u0111\xF3 \u0111\u1EC3 t\xECm."
+    npcId: NPCTruyTimGiauVet
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: 69bc2cb83791a3a4dbb94b3a15d1721c, type: 2}
+    nextStep: step3
+  - stepId: step3
+    missionType: 1
+    stepName: "Nh\u1EB7t Huy hi\u1EC7u \u201CSinh vi\xEAn 5 t\u1ED1t \u2013 K\u1EF9
+      n\u0103ng s\u1ED1\u201D"
+    stepDescription: "B\u1EE9c \u1EA3nh ti\u1EBFp theo \u0111ang n\u1EB1m \u1EDF
+      tr\u01B0\u1EDBc c\u1EEDa th\u01B0 vi\u1EC7n."
+    npcId: NPCTruyTimGiauVet
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: ce780f303e5beba4bbd67c8fdc6886cf, type: 2}
+    nextStep: step4
+  - stepId: step4
+    missionType: 1
+    stepName: "K\u1ECBch b\u1EA3n bu\u1ED5i truy\u1EC1n th\xF4ng ch\u1ED1ng l\u1EEBa
+      \u0111\u1EA3o"
+    stepDescription: "B\u1EE9c \u1EA3nh ti\u1EBFp theo \u0111ang \u1EDF \u0111\xE2u
+      \u0111\xF3 \u1EDF k\xFD t\xFAc x\xE1 B5. H\xE3y ra \u0111\xF3 \u0111\u1EC3
+      t\xECm."
+    npcId: NPCTruyTimGiauVet
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: e7219b36fab8a224a8689d2b40bcc270, type: 2}
+    nextStep: step5
+  - stepId: step5
+    missionType: 1
+    stepName: "T\u1EDD r\u01A1i c\u1EA3nh b\xE1o tuy\u1EC3n d\u1EE5ng gi\u1EA3"
+    stepDescription: "B\u1EE9c \u1EA3nh ti\u1EBFp theo \u0111ang \u1EDF g\u1EA7n
+      PCoffee. H\xE3y ra \u0111\xF3 \u0111\u1EC3 t\xECm."
+    npcId: NPCTruyTimGiauVet
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: e671773d4209c994ab9bce440fc40286, type: 2}
+    nextStep: step6
+  - stepId: step6
+    missionType: 0
+    stepName: "Phi\u1EBFu kh\u1EA3o s\xE1t nh\u1EADn th\u1EE9c an to\xE0n th\xF4ng
+      tin"
+    stepDescription: "B\u1EE9c \u1EA3nh cu\u1ED1i c\xF9ng b\u1ECB \u0111\xE1nh r\u01A1i
+      \u1EDF g\u1EA7n s\xE2n b\xF3ng. H\xE3y ra \u0111\xF3 \u0111\u1EC3 t\xECm."
+    npcId: NPCTruyTimGiauVet
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: c3604d6f2f25e7846a9e200593839693, type: 2}
+    nextStep: step8
+  - stepId: step8
+    missionType: 0
+    stepName: "G\u1EB7p l\u1EA1i Lan Anh"
+    stepDescription: "Quay l\u1EA1i ch\u1ED7 Lan Anh \u0111\u1EC3 nh\u1EADn th\u01B0\u1EDFng"
+    npcId: NPCTruyTimGiauVet
+    npcStatus: 3
+    conservation: {fileID: 11400000, guid: 5f0b79c8dd91dbf4d973a515f94de610, type: 2}
+    nextStep: 
+  goldReward: 100
+  experienceReward: 100
+  bonusMedal: 0
+  itemRewards: []
+  questIcon: {fileID: 21300000, guid: d4c3326f022855d42b93d351ea7dfb0f, type: 3}
+  isAdvancedQuest: 1
+  questType: 0

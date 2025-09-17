@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d7b3738a990024995e32e354368843, type: 3}
+  m_Name: DaThanStep1
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: DaThanStep1
+  <Text>k__BackingField: "\u0110\xE2y l\xE0 t\u1EA3ng \u0111\xE1 th\u1EA7n, m\u1ED9t
+    n\u01A1i linh thi\xEAng. Ng\u01B0\u1EDDi ta \u0111\u1ED3n r\u1EB1ng n\u1EBFu
+    ch\u1EA1m tay v\xE0o \u0111\xE1 s\u1EBD g\u1EB7p \u0111\u01B0\u1EE3c may m\u1EAFn"
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: "Ch\u1EA1m tay v\xE0o \u0111\xE1"
+    <NextDialogue>k__BackingField: {fileID: 0}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+    <Icon>k__BackingField: {fileID: 0}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 1
+  <Icon>k__BackingField: {fileID: 0}
+  <ExecutedFunction>k__BackingField: 28
+  <NextExecutedFunction>k__BackingField: 0

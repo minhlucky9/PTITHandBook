@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b252ce2f637574a9ccc15449c628ad, type: 3}
+  m_Name: NPCQuestQuizVPMotCua
+  m_EditorClassIdentifier: 
+  npcId: NPCQuestQuizVPMotCua
+  npcName: "Nguy\u1EC5n Ki\xEAn C\u01B0\u1EDDng"
+  npcRole: "Chuy\xEAn vi\xEAn"
+  normalConservation: {fileID: 11400000, guid: 4199801a1c898b04dba0b0e47c40bde7, type: 2}

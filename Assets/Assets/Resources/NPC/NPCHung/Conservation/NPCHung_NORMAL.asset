@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318c5d99a71aed9408ed957fc30a9555, type: 3}
+  m_Name: NPCHung_NORMAL
+  m_EditorClassIdentifier: 
+  conservationId: NORMAL
+  npcState: 0
+  questId: 
+  stepId: 
+  startFromFirstDialog: 0
+  dialogs:
+  - dialogId: dialog1
+    message: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+      x
+
+      x
+
+      x
+
+      x
+
+      x
+
+
+      x
+
+      x'
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "Em c\u1EA3m \u01A1n anh \u1EA1."
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: 
+      executedFunction: 1
+      NextExecutedFunction: 0
+    nodePosition: {x: 873.2001, y: 41.19999}
+  - dialogId: dialog2
+    message: xxx
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses: []
+    nodePosition: {x: 78.600006, y: 257.2}
+  - dialogId: dialog3
+    message: 
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses: []
+    nodePosition: {x: 147.40002, y: 52.200027}
+  - dialogId: dialog5
+    message: 
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses: []
+    nodePosition: {x: 88.19998, y: 473.80005}
+  - dialogId: dialog6
+    message: 
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses: []
+    nodePosition: {x: 346.59998, y: 363.59998}
+  - dialogId: dialog4
+    message: zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses: []
+    nodePosition: {x: 535.60004, y: 251.19995}
+  - dialogId: dialog7
+    message: 
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses: []
+    nodePosition: {x: 384.80002, y: 151.59998}
+  - dialogId: dialog8
+    message: 
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses: []
+    nodePosition: {x: 947.2, y: 389.2}
+  - dialogId: dialog9
+    message: 
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses: []
+    nodePosition: {x: 774.4, y: 432.40002}

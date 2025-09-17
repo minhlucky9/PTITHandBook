@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318c5d99a71aed9408ed957fc30a9555, type: 3}
+  m_Name: NPCQuestQuizImage_IN_PROGRESS
+  m_EditorClassIdentifier: 
+  conservationId: IN_PROGRESS_QuizQuestImage_step2
+  npcState: 2
+  questId: QuizQuestImage
+  stepId: step2
+  startFromFirstDialog: 1
+  dialogs:
+  - dialogId: dialog1
+    message: "Em \u0111\xE3 chu\u1EA9n b\u1ECB s\u1EB5n s\xE0ng r\u1ED3i ch\u1EE9?"
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "D\u1EA1, em s\u1EB5n s\xE0ng r\u1ED3i \u1EA1"
+      icon: {fileID: 21300000, guid: ed9b1502b8803f04f8c7ebb1d546adef, type: 3}
+      nextDialogId: 
+      executedFunction: 3
+      NextExecutedFunction: 0
+    - message: "D\u1EA1, em ch\u01B0a"
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: dialog2
+      executedFunction: 0
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}
+  - dialogId: dialog2
+    message: "Kh\xF4ng sao, em c\u1EE9 ti\u1EBFp t\u1EE5c t\xECm hi\u1EC3u. H\xE3y
+      quay l\u1EA1i khi em \u0111\xE3 chu\u1EA9n b\u1ECB s\u1EB5n s\xE0ng nh\xE9."
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "V\xE2ng \u1EA1, em ch\xE0o th\u1EA7y"
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: 
+      executedFunction: 1
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}

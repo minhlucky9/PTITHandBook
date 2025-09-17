@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c4af2c76fc3794b9bbbb79cf57f465, type: 3}
+  m_Name: Shop_NPCShop
+  m_EditorClassIdentifier: 
+  functionId: Shop_NPCShop
+  type: 0
+  npcId: NPCShop
+  shopCategories:
+  - categoryName: "\u0110\u1ED3 \u0103n"
+    categoryDescription: "\u0110\u1ED3 \u0103n gi\xFAp b\u1EA1n tr\xE0n tr\u1EC1
+      n\u0103ng l\u01B0\u1EE3ng"
+    iconInShop: {fileID: 21300000, guid: 691aff96465a0eb48b35e5259fdfb359, type: 3}
+    shopItems:
+    - itemInfo: {fileID: 11400000, guid: e78db27455d55f544b20aca346e8528a, type: 2}
+      price: 15
+      valueIcon: {fileID: 21300000, guid: ef8f16033b1e8c74c841714f5004514d, type: 3}
+    - itemInfo: {fileID: 11400000, guid: c54999f39bc9e9e44a76c1a213c35acf, type: 2}
+      price: 20
+      valueIcon: {fileID: 21300000, guid: 07331d36236f5c94b8cf9422b3f9456b, type: 3}
+    - itemInfo: {fileID: 11400000, guid: e2e707678bda87041a1438b8b03b0ee5, type: 2}
+      price: 25
+      valueIcon: {fileID: 21300000, guid: 031a129d438e95046835c4a318bec767, type: 3}
+    - itemInfo: {fileID: 11400000, guid: e2e707678bda87041a1438b8b03b0ee5, type: 2}
+      price: 25
+      valueIcon: {fileID: 21300000, guid: 031a129d438e95046835c4a318bec767, type: 3}
+  - categoryName: "\u0110\u1ED3 u\u1ED1ng"
+    categoryDescription: "\u0110\u1ED3 u\u1ED1ng tr\xE0n \u0111\u1EA7y n\u0103ng
+      l\u01B0\u1EE3ng gi\xFAp b\u1EA1n duy tr\xEC th\u1EC3 l\u1EF1c"
+    iconInShop: {fileID: 21300000, guid: 92e0fbc7523a69040a298c1e641d8fd6, type: 3}
+    shopItems:
+    - itemInfo: {fileID: 11400000, guid: 045a9f4784283d141b6fe48558cc851c, type: 2}
+      price: 10
+      valueIcon: {fileID: 21300000, guid: 2b8699c7dd30ad943a5b2c145d3cbb41, type: 3}
+    - itemInfo: {fileID: 11400000, guid: 12e79fac31178504ca655eae8781ebd1, type: 2}
+      price: 5
+      valueIcon: {fileID: 21300000, guid: 748cd00bcb5ba8a42824c51d1af8b9cf, type: 3}
+  - categoryName: "V\u0103n ph\xF2ng ph\u1EA9m"
+    categoryDescription: "C\xE1c c\xF4ng c\u1EE5 h\u1ED7 tr\u1EE3 "
+    iconInShop: {fileID: 21300000, guid: 92e0fbc7523a69040a298c1e641d8fd6, type: 3}
+    shopItems: []

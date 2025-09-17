@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d7b3738a990024995e32e354368843, type: 3}
+  m_Name: 13
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: 13
+  <Text>k__BackingField: "\u201CCh\xE0o em, l\u1EA1i th\xEAm m\u1ED9t t\xE2n binh
+    s\u0103n \u0111\u1EC1 thi \u0111\xFAng kh\xF4ng? B\u1ED9 \u0111\u1EC1 n\xE0y
+    t\u1EEBng gi\xFAp sinh vi\xEAn D19 qua m\xF4n v\u1EDBi 10 \u0111i\u1EC3m tuy\u1EC7t
+    \u0111\u1ED1i \u0111\xF3 nha! Nh\u01B0ng\u2026 in th\xEC ph\u1EA3i tr\u1EA3 ph\xED
+    \u0111\xF3\u201D"
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: "Tr\u1EA3 10 coin \u0111\u1EC3 in b\u1ED9 \u0111\u1EC1"
+    <NextDialogue>k__BackingField: {fileID: 0}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+    <Icon>k__BackingField: {fileID: 21300000, guid: 30c97933d4e7d3e4c93626b73460de32,
+      type: 3}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 1
+  <Icon>k__BackingField: {fileID: 0}
+  <ExecutedFunction>k__BackingField: 24
+  <NextExecutedFunction>k__BackingField: 0

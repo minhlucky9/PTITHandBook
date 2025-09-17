@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8675033c89e01e045840dacd37af3fa5, type: 3}
+  m_Name: QuizQuestA2_step2
+  m_EditorClassIdentifier: 
+  minigameId: QuizQuestA2_step2
+  questId: QuizQuestA2
+  stepId: step2
+  targetNPC: {fileID: 0}
+  numberOfQuestion: 8
+  numberOfMaxWrong: 2
+  qnas:
+  - Question: "H\xECnh th\u1EE9c mua h\xE0ng trong c\u0103ng tin H\u1ECDc vi\u1EC7n
+      l\xE0 g\xEC?"
+    Answers:
+    - "Mua phi\u1EBFu r\u1ED3i l\u1EA5y h\xE0ng"
+    - "Mua h\xE0ng tr\u1EA3 ti\u1EC1n ngay"
+    - "Mua h\xE0ng khi v\u1EC1 th\xEC tr\u1EA3 ti\u1EC1n"
+    - "Mua h\xE0ng b\u1EB1ng th\u1EBB"
+    CorrectAnswer: 1
+    Explaination: "Khi mua h\xE0ng b\xEAn trong c\u0103ng tin H\u1ECDc vi\u1EC7n,
+      b\u1EA1n c\u1EA7n ph\u1EA3i ti\u1EBFn h\xE0nh <color=#06FFE6>mua phi\u1EBFu
+      r\u1ED3i l\u1EA5y h\xE0ng</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "T\xF2a nh\xE0 n\xE0o kh\xF4ng c\xF3 \u1EDF trong khu\xF4n vi\xEAn
+      H\u1ECDc vi\u1EC7n?"
+    Answers:
+    - A1
+    - A2
+    - A4
+    - A3
+    CorrectAnswer: 3
+    Explaination: "<color=#06FFE6>T\xF2a nh\xE0 A4</color> kh\xF4ng n\u1EB1m trong
+      khu\xF4n vi\xEAn c\u1EE7a H\u1ECDc vi\u1EC7n."
+    QuestionImage: {fileID: 0}
+  - Question: "Nh\xE0 A2 c\xF3 bao nhi\xEAu t\u1EA7ng ?"
+    Answers:
+    - 8
+    - 9
+    - 10
+    - 11
+    CorrectAnswer: 4
+    Explaination: "Nh\xE0 A2 c\xF3 t\u1EA5t c\u1EA3 <color=#06FFE6>11 t\u1EA7ng</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "Nh\xE0 A3 c\xF3 thang m\xE1y kh\xF4ng ?"
+    Answers:
+    - "C\xF3 1 thang m\xE1y"
+    - "C\xF3 2 thang m\xE1y"
+    - "C\xF3 3 thang m\xE1y"
+    - "Kh\xF4ng c\xF3"
+    CorrectAnswer: 1
+    Explaination: "Nh\xE0 A3 <color=#06FFE6>c\xF3 1 thang m\xE1y</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "C\xF3 bao nhi\xEAu tuy\u1EBFn xe bu\xFDt \u0111i qua c\u1ED5ng H\u1ECDc
+      vi\u1EC7n?"
+    Answers:
+    - 8
+    - 9
+    - 10
+    - 11
+    CorrectAnswer: 4
+    Explaination: "C\xF3 t\u1EA5t c\u1EA3 <color=#06FFE6>11 tuy\u1EBFn xe bu\xFDt</color>
+      \u0111i qua c\u1ED5ng H\u1ECDc vi\u1EC7n."
+    QuestionImage: {fileID: 0}
+  - Question: "Data Center n\u1EB1m \u1EDF \u0111\xE2u trong h\u1ECDc vi\u1EC7n ?"
+    Answers:
+    - "Nh\xE0 \u0103n H\u1ECDc Vi\u1EC7n"
+    - "Nh\xE0 A2"
+    - "Nh\xE0 A3"
+    - "Nh\xE0 A1"
+    CorrectAnswer: 3
+    Explaination: "Data Center n\u1EB1m \u1EDF <color=#06FFE6>nh\xE0 A3</color> trong
+      H\u1ECDc vi\u1EC7n."
+    QuestionImage: {fileID: 0}
+  - Question: "S\xE2n b\xF3ng chuy\u1EC1n c\u1EE7a h\u1ECDc vi\u1EC7n n\u1EB1m \u1EDF
+      \u0111\xE2u?"
+    Answers:
+    - "Tr\u01B0\u1EDBc c\u0103ng tin h\u1ECDc vi\u1EC7n"
+    - "Tr\u01B0\u1EDBc nh\xE0 A2"
+    - "Tr\u01B0\u1EDBc K\xED T\xFAc X\xE1 B5"
+    - "Sau nh\xE0 A3"
+    CorrectAnswer: 1
+    Explaination: "S\xE2n b\xF3ng chuy\u1EC1n c\u1EE7a h\u1ECDc vi\u1EC7n n\u1EB1m
+      \u1EDF <color=#06FFE6>tr\u01B0\u1EDBc c\u0103ng tin H\u1ECDc vi\u1EC7n</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "H\u1ECDc vi\u1EC7n c\xF3 t\u1EA5t c\u1EA3 bao nhi\xEAu h\u1ED9i tr\u01B0\u1EDDng
+      ?"
+    Answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    CorrectAnswer: 2
+    Explaination: "H\u1ECDc vi\u1EC7n c\xF3 t\u1EA5t c\u1EA3 <color=#06FFE6>2 h\u1ED9i
+      tr\u01B0\u1EDDng</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "Trong c\xE1c t\xF2a nh\xE0 c\u1EE7a h\u1ECDc vi\u1EC7n d\u01B0\u1EDBi
+      \u0111\xE2y, t\xF2a nh\xE0 n\xE0o to nh\u1EA5t ?"
+    Answers:
+    - A1
+    - A2
+    - A3
+    - B9
+    CorrectAnswer: 2
+    Explaination: "Trong h\u1ECDc vi\u1EC7n, <color=#06FFE6>t\xF2a nh\xE0 A2</color>
+      l\xE0 t\xF2a nh\xE0 to nh\u1EA5t."
+    QuestionImage: {fileID: 0}
+  - Question: "Bu\u1ED5i chi\u1EBFu phim d\xE0nh ri\xEAng cho t\xE2n sinh vi\xEAn
+      s\u1EBD \u0111\u01B0\u1EE3c t\u1ED5 ch\u1EE9c \u1EDF \u0111\xE2u?"
+    Answers:
+    - "CGV H\u1ED3 G\u01B0\u01A1m"
+    - "T\xF2a nh\xE0 A1"
+    - "H\u1ED9i tr\u01B0\u1EDDng A2"
+    - Canteen
+    CorrectAnswer: 3
+    Explaination: "Bu\u1ED5i chi\u1EBFu phim d\xE0nh cho t\xE2n sinh vi\xEAn \u0111\u01B0\u1EE3c
+      t\u1ED5 ch\u1EE9c \u1EDF <color=#06FFE6>H\u1ED9i tr\u01B0\u1EDDng A2</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "V\u0103n ph\xF2ng khoa Multimedia n\u1EB1m \u1EDF \u0111\xE2u?"
+    Answers:
+    - "T\u1EA7ng G nh\xE0 A2"
+    - "T\u1EA7ng 1 nh\xE0 A1"
+    - "T\u1EA7ng 2 nh\xE0 A2"
+    - "T\u1EA7ng 3 nh\xE0 A1"
+    CorrectAnswer: 2
+    Explaination: "V\u0103n ph\xF2ng khoa \u0110a ph\u01B0\u01A1ng ti\u1EC7n (Multimedia)
+      n\u1EB1m \u1EDF <color=#06FFE6>t\u1EA7ng 1 nh\xE0 A1</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "H\u1ED9i tr\u01B0\u1EDDng A2 c\xF3 bao nhi\xEAu ch\u1ED7 ng\u1ED3i
+      ?"
+    Answers:
+    - "D\u01B0\u1EDBi 500 ch\u1ED7"
+    - "D\u01B0\u1EDBi 600 ch\u1ED7"
+    - "D\u01B0\u1EDBi 700 ch\u1ED7"
+    - "Tr\xEAn 800 ch\u1ED7"
+    CorrectAnswer: 4
+    Explaination: "H\u1ED9i tr\u01B0\u1EDDng A2 c\xF3 <color=#06FFE6>tr\xEAn 800
+      ch\u1ED7 ng\u1ED3i</color>."
+    QuestionImage: {fileID: 0}
+  quizIntro:
+    dialogId: intro
+    message: "Ok v\u1EADy m\xECnh b\u1EAFt \u0111\u1EA7u nh\xE9. C\xF4 s\u1EBD c\xF3
+      t\u1EA5t c\u1EA3 8 c\xE2u h\u1ECFi li\xEAn quan \u0111\u1EBFn <color=#06FFE6>c\xE1c
+      c\u01A1 s\u1EDF v\u1EADt ch\u1EA5t</color> b\xEAn trong H\u1ECDc vi\u1EC7n
+      m\xECnh. H\xE3y l\u01B0u \xFD em ch\u1EC9 \u0111\u01B0\u1EE3c ph\xE9p tr\u1EA3
+      l\u1EDDi sai t\u1ED1i \u0111a 3 c\xE2u."
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "V\xE2ng \u1EA1"
+      icon: {fileID: 0}
+      nextDialogId: 
+      executedFunction: 4
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}

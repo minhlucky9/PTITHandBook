@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bde469a0977f4488098765bf5c53d6, type: 3}
+  m_Name: HelpFriend2
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: HelpFriend2
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: 0cfa56a70480c544c9e14fa84b55b4b5, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 72c103b2efd900b43b829030e03a5e35, type: 2}
+      - {fileID: 11400000, guid: e7e00dba0a4c40b47ba0bd03bac69d32, type: 2}
+      - {fileID: 11400000, guid: 449b1fb82212d3f45a4ef72baeec258d, type: 2}
+      - {fileID: 11400000, guid: 9ebf67df15e2ecc47b302c040f42799e, type: 2}
+    - Key: {fileID: 11400000, guid: 97e6d31a964d37847bacb97775e16b3f, type: 2}
+      Value:
+      - {fileID: 11400000, guid: bbf55242cb7b5e349b5d26ba01b82a7f, type: 2}
+  <UngroupedDialogues>k__BackingField: []

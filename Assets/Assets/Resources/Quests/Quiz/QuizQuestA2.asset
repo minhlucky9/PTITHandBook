@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b8fb76b99894d48bb526e5bb6840c2, type: 3}
+  m_Name: QuizQuestA2
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: QuizQuestA2
+  displayName: Answer quiz outside A2
+  levelRequirement: 1
+  questPrerequisites:
+  - {fileID: 11400000, guid: d33027308f78fb24ab42512519c0a998, type: 2}
+  questSteps:
+  - stepId: step1
+    missionType: 0
+    stepName: "N\xF3i chuy\u1EC7n v\u1EDBi L\xEA Th\u1ECB Nga b\xEAn trong nh\xE0
+      A2"
+    stepDescription: "N\xF3i chuy\u1EC7n v\u1EDBi L\xEA Th\u1ECB Nga b\xEAn trong
+      nh\xE0 A2"
+    npcId: NPCQuestQuizA2
+    npcStatus: 1
+    conservation: {fileID: 11400000, guid: 233b27cca9855ac44b8455089aa9714f, type: 2}
+    nextStep: step2
+  - stepId: step2
+    missionType: 1
+    stepName: "Tr\u1EA3 l\u1EDDi c\xE2u h\u1ECFi c\u1EE7a c\xF4 Nga"
+    stepDescription: "B\u1EA1n c\xF3 th\u1EC3 t\xECm hi\u1EC3u th\xF4ng tin v\u1EC1
+      c\u01A1 s\u1EDF v\u1EADt ch\u1EA5t c\u1EE7a h\u1ECDc vi\u1EC7n trong t\xE0i
+      li\u1EC7u 7 trong t\xFAi \u0111\u1ED3 (M). Khi b\u1EA1n \u0111\xE3 s\u1EB5n
+      s\xE0ng, h\xE3y \u0111\u1EBFn g\u1EB7p c\xF4 Nga. C\xF4 s\u1EBD \u0111\u1EB7t
+      b\u1EA1n m\u1ED9t s\u1ED1 c\xE2u h\u1ECFi."
+    npcId: NPCQuestQuizA2
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: 65aa063185238a943a2ccc1096a57cdc, type: 2}
+    nextStep: 
+  goldReward: 50
+  experienceReward: 50
+  itemRewards: []
+  questIcon: {fileID: 21300000, guid: 2040cabdcb972714188c77f624c95577, type: 3}
+  isAdvancedQuest: 0
+  questType: 1

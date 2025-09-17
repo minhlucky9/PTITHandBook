@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bde469a0977f4488098765bf5c53d6, type: 3}
+  m_Name: TruyTimGiauVet
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: TruyTimGiauVet
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: cd2d280bca4a52c47ba3e1c86e21ca84, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 9df506f7b3a512c40b343741a79c8a1a, type: 2}
+      - {fileID: 11400000, guid: 690f279500c1dee4387c137f655289eb, type: 2}
+      - {fileID: 11400000, guid: d9c035f2304e3c942957e763111508e2, type: 2}
+    - Key: {fileID: 11400000, guid: c50646bff16406d42aaa1c4bc4fc7e6a, type: 2}
+      Value:
+      - {fileID: 11400000, guid: e96f7c22721f5d14097bea77a20853d3, type: 2}
+    - Key: {fileID: 11400000, guid: 8898e5d840219a34a8e2163b4d96d6a0, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 76b80cdb8fac7664b8611213fde51bb9, type: 2}
+  <UngroupedDialogues>k__BackingField: []

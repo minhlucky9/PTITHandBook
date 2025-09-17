@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318c5d99a71aed9408ed957fc30a9555, type: 3}
+  m_Name: NPCKien_HAVE_QUEST
+  m_EditorClassIdentifier: 
+  conservationId: HAVE_QUEST_QuestHelpFriend2_step1
+  npcState: 1
+  questId: QuestHelpFriend2
+  stepId: step1
+  startFromFirstDialog: 1
+  dialogs:
+  - dialogId: dialog1
+    message: "C\xF3 vi\u1EC7c g\xEC th\u1EBF em?"
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "Em \u0111ang \u0111i kh\xE1m ph\xE1 h\u1ECDc vi\u1EC7n th\xF4i \u1EA1"
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: dialog2
+      executedFunction: 0
+      NextExecutedFunction: 0
+    - message: "Xin l\u1ED7i em \u0111i l\u1EA1c \u1EA1"
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: dialog4
+      executedFunction: 0
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}
+  - dialogId: dialog2
+    message: "Em mu\u1ED1n v\u1EEBa kh\xE1m ph\xE1 h\u1ECDc vi\u1EC7n v\u1EEBa c\xF3
+      ph\u1EA7n th\u01B0\u1EDFng kh\xF4ng?"
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "Ui c\xF3 ch\u1EE9 anh!"
+      icon: {fileID: 21300000, guid: 0dc3836fd00185541bf57db184abd393, type: 3}
+      nextDialogId: dialog3
+      executedFunction: 0
+      NextExecutedFunction: 0
+    - message: "Th\xF4i \u1EA1, em l\u01B0\u1EDDi l\u1EAFm"
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: dialog5
+      executedFunction: 0
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}
+  - dialogId: dialog3
+    message: "\u0110\u01B0\u1EE3c, anh \u0111\xE3 r\u1EA3i r\xE1c c\xE1c ng\xF4i
+      sao xung quanh h\u1ECDc vi\u1EC7n r\u1ED3i, n\u1EBFu em t\xECm \u0111\u01B0\u1EE3c
+      t\u1EA5t c\u1EA3 anh s\u1EBD c\xF3 th\u01B0\u1EDFng cho em."
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "V\xE2ng \u1EA1"
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: 
+      executedFunction: 4
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}
+  - dialogId: dialog4
+    message: "Oke em, anh t\u01B0\u1EDFng em \u0111\u1EC3 \xFD \u0111\u1EBFn anh.."
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "D\u1EA1 em xin l\u1ED7i"
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: 
+      executedFunction: 1
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}
+  - dialogId: dialog5
+    message: "Haizz, th\xF4i kh\xF4ng sao, anh ch\u1EDD em quay l\u1EA1i."
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "V\xE2ng \u1EA1"
+      icon: {fileID: 21300000, guid: a74640281c76e2a469a527c1713bd5e4, type: 3}
+      nextDialogId: 
+      executedFunction: 1
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}

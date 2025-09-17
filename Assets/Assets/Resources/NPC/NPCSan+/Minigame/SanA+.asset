@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 028d03e7140c20b4abc25a611f5ebbae, type: 3}
+  m_Name: SanA+
+  m_EditorClassIdentifier: 
+  minigameId: QuestSanA+_step2
+  questId: QuestSanA+
+  stepId: step2
+  targetNPC: {fileID: 0}
+  coinCostAtNPC2: 10
+  studentCardItemId: TheThuVien
+  breadItemId: PateBread
+  step1_NPC1: step1
+  step2_NPC2_cost10: step2
+  step3_NPC3_checkCard: step3
+  step4_BreadPopup: step4
+  step5_NPC5: step5
+  step6_NPC6_Try: step6
+  step7_BackToNPC1: step7
+  npc6_Try1: DaThanTry1
+  npc6_Try2: DaThanTry2
+  npc6_Try3: DaThanTry3
+  durationSeconds: 300

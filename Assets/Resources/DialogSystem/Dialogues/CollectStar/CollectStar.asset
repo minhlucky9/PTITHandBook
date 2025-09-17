@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bde469a0977f4488098765bf5c53d6, type: 3}
+  m_Name: CollectStar
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: CollectStar
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: 1e57892dd7d541540a352cdda979236b, type: 2}
+      Value:
+      - {fileID: 11400000, guid: d66fa1ae50235474088296e9124a01d7, type: 2}
+      - {fileID: 11400000, guid: 59e3300bf01937c45850d82fac944db8, type: 2}
+      - {fileID: 11400000, guid: 4b12286b6fed89646b45818287991c19, type: 2}
+      - {fileID: 11400000, guid: 1d8de620ad0164646b57bdba5e0cdeba, type: 2}
+    - Key: {fileID: 11400000, guid: c573d2d8fffb5a14db1efc9d389bd501, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 0a62fda7deb26234cade6cb661bcc461, type: 2}
+    - Key: {fileID: 11400000, guid: e1ca3565a80ecf342b707c3643eb8746, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 924a0475738a5bc429936ef5e4539d74, type: 2}
+  <UngroupedDialogues>k__BackingField: []

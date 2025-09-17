@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b252ce2f637574a9ccc15449c628ad, type: 3}
+  m_Name: NPCThanh
+  m_EditorClassIdentifier: 
+  npcId: NPCThanh
+  npcName: "Nguy\u1EC5n V\u0103n Th\xE0nh"
+  npcRole: "Gi\xE1o vi\xEAn "
+  normalConservation: {fileID: 11400000, guid: a674ed9eabbddd84a9fcf2004f6027d8, type: 2}

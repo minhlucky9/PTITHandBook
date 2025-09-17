@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b8fb76b99894d48bb526e5bb6840c2, type: 3}
+  m_Name: QuizQuestKTXB3
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: QuizQuestKTXB3
+  displayName: Answer quiz outside ktxb3
+  levelRequirement: 1
+  questPrerequisites:
+  - {fileID: 11400000, guid: 40c4555cb2ccc9e4eb8cc12307d71c23, type: 2}
+  questSteps:
+  - stepId: step1
+    missionType: 0
+    stepName: "N\xF3i chuy\u1EC7n v\u1EDBi anh sinh vi\xEAn Nguy\u1EC5n \u0110\u1EE9c
+      Duy"
+    stepDescription: "Anh Duy \u1EDF K\xED t\xFAc x\xE1 B1 c\xF3 m\u1ED9t s\u1ED1
+      c\xE2u h\u1ECFi \u0111\u1EC3 ki\u1EC3m tra s\u1EF1 hi\u1EC3u bi\u1EBFt c\u1EE7a
+      sinh vi\xEAn v\u1EC1 \u0111\u1EDDi s\u1ED1ng c\u1EE7a sinh vi\xEAn t\u1EA1i
+      H\u1ECDc vi\u1EC7n."
+    npcId: NPCQuestQuizKTXB3
+    npcStatus: 1
+    conservation: {fileID: 11400000, guid: f00eb5a347b7899429da1ff2a09e4597, type: 2}
+    nextStep: step2
+  - stepId: step2
+    missionType: 1
+    stepName: "Tr\u1EA3 l\u1EDDi c\xE2u h\u1ECFi c\u1EE7a anh Duy"
+    stepDescription: "B\u1EA1n c\xF3 th\u1EC3 t\xECm hi\u1EC3u th\xF4ng tin v\u1EC1
+      \u0111\u1EDDi s\u1ED1ng sinh vi\xEAn trong T\xE0i li\u1EC7u 3 n\u1EB1m trong
+      t\xFAi \u0111\u1ED3. Khi b\u1EA1n \u0111\xE3 s\u1EB5n s\xE0ng, h\xE3y \u0111\u1EBFn
+      g\u1EB7p anh Duy. Anh \u1EA5y s\u1EBD \u0111\u1EB7t b\u1EA1n m\u1ED9t s\u1ED1
+      c\xE2u h\u1ECFi."
+    npcId: NPCQuestQuizKTXB3
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: 6e843e17f46a03f4fbd9bab217835a32, type: 2}
+    nextStep: 
+  goldReward: 50
+  experienceReward: 50
+  bonusMedal: 0
+  itemRewards: []
+  questIcon: {fileID: 21300000, guid: 106a8dd4af7b3ae4f8bee630156d95d9, type: 3}
+  isAdvancedQuest: 0
+  questType: 1

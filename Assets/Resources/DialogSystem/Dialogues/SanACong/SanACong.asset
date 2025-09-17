@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bde469a0977f4488098765bf5c53d6, type: 3}
+  m_Name: SanACong
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: SanACong
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: 100addf49be51f24c85ab8ab80b71dd1, type: 2}
+      Value:
+      - {fileID: 11400000, guid: b6d337af9888896428cdb1a641fba1b5, type: 2}
+      - {fileID: 11400000, guid: 605b4a2d81723da43943f681f2edfe7f, type: 2}
+      - {fileID: 11400000, guid: 146c710733a2a254282d955d442fdac8, type: 2}
+      - {fileID: 11400000, guid: a31bea913a32aae4ca5b1dcaa9402947, type: 2}
+      - {fileID: 11400000, guid: c18e584907624e6449343217590521c1, type: 2}
+      - {fileID: 11400000, guid: e8717f46ece64c543807c7c4ff6a4408, type: 2}
+    - Key: {fileID: 11400000, guid: 1f3621345bdf9d2499e8d62e703e5e57, type: 2}
+      Value:
+      - {fileID: 11400000, guid: c4ad5ba4bf0d3464281f4852c726ccbd, type: 2}
+    - Key: {fileID: 11400000, guid: d515ecbabb456404ab32097cc5242ddd, type: 2}
+      Value:
+      - {fileID: 11400000, guid: e4d0accae8bf7714797ee617a2efd7b8, type: 2}
+    - Key: {fileID: 11400000, guid: 67e4bc65917b94b49811f779295e89da, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 1f1a00959f7f898419558b134636df4a, type: 2}
+    - Key: {fileID: 11400000, guid: ee6eb8828c64d694f89c2f1eaad7891d, type: 2}
+      Value:
+      - {fileID: 11400000, guid: b4f5ae0f7f90bc346a1c6c3aae1c7819, type: 2}
+    - Key: {fileID: 11400000, guid: 5b70bd9674d805b4188dd8cb95a581f8, type: 2}
+      Value:
+      - {fileID: 11400000, guid: c0973076913ba204fb602981cb165dbc, type: 2}
+      - {fileID: 11400000, guid: 52f9c14c7c5ddbb4ab58b3e5be09f0ae, type: 2}
+      - {fileID: 11400000, guid: 23dc4cdf04cee004683a37d222336f78, type: 2}
+    - Key: {fileID: 11400000, guid: ec7d3ef479804764986e1846a13e95c4, type: 2}
+      Value:
+      - {fileID: 11400000, guid: e4701260614ea484aab7f2e8df3f2a0c, type: 2}
+      - {fileID: 11400000, guid: a896d25e9151fd24f92d39a0ae6198af, type: 2}
+    - Key: {fileID: 11400000, guid: 77fe4277976520d499e9153fddad698b, type: 2}
+      Value:
+      - {fileID: 11400000, guid: cd4e638da9ad98d4bbe27a9befc5a9a1, type: 2}
+    - Key: {fileID: 11400000, guid: f20c92e8713f4bd4cbbf5b3dd1159a5a, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 3eee8bf91a87b534faec08ff18b9d5c0, type: 2}
+    - Key: {fileID: 11400000, guid: aec9fa536575c574d93243ddd6fa446a, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 2a38654f44c16394d8b64bb8d729a447, type: 2}
+    - Key: {fileID: 11400000, guid: b5cdc031627a5f843b10a2fd40f70c82, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 3ecf626eafa78b54fab8c24dc40acf17, type: 2}
+      - {fileID: 11400000, guid: 961d87e45b4ee1f43b96f323a552bb83, type: 2}
+    - Key: {fileID: 11400000, guid: 0945640b8e9c82646bd344375815fad3, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 2db660ad954543848a75be80c41ca2df, type: 2}
+    - Key: {fileID: 11400000, guid: 83388debb6c12bd4a864dc181c452e44, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 4295724f19f5b2d4a880e7d1fe317021, type: 2}
+    - Key: {fileID: 11400000, guid: 2d87bac8fb2061946b3585c34baa76e9, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 3fa3c3e56b6b45243a141a3da1c34a79, type: 2}
+    - Key: {fileID: 11400000, guid: 29148e8d27204d74f8bd2fc805e5d9d9, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 9f28bb6f993272d4a96990ed303796a7, type: 2}
+    - Key: {fileID: 11400000, guid: 74d0fb8a9f1bb5e419f335b5661c9b33, type: 2}
+      Value:
+      - {fileID: 11400000, guid: a31baf37636190e43abaef210388d8be, type: 2}
+    - Key: {fileID: 11400000, guid: 453035ebf00a47f4a97971393c043d9d, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 9b91e7a00517bcd4fac76e1e7b0b8d8b, type: 2}
+  <UngroupedDialogues>k__BackingField: []

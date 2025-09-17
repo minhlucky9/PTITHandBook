@@ -1,0 +1,34 @@
+{
+    "name": "UI",
+    "maps": [
+        {
+            "name": "OpenMenu",
+            "id": "c4ca3652-eb47-4275-8a37-fafa3ff8ffe0",
+            "actions": [
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "a59f6f35-1403-45c5-8108-71e75ef1910e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a5bc42ca-fed1-4232-a745-49e6e5d2105b",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 318c5d99a71aed9408ed957fc30a9555, type: 3}
+  m_Name: New NPC Conservation SO
+  m_EditorClassIdentifier: 
+  conservationId: NORMAL
+  npcState: 0
+  questId: 
+  stepId: 
+  startFromFirstDialog: 0
+  dialogs:
+  - dialogId: 
+    message: 
+    nodeSize: {x: 0, y: 0}
+    voice: {fileID: 0}
+    possibleResponses: []
+    nodePosition: {x: 0, y: 0}

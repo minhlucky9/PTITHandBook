@@ -1,0 +1,175 @@
+{
+	"info": {
+		"_postman_id": "e23a5ffb-23fa-435e-9734-dfda3246225a",
+		"name": "Demo3DBackend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14975975"
+	},
+	"item": [
+		{
+			"name": "Signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"student_id\":\"B16DCVT136\",\r\n    \"fullname\":\"Nguyễn Phú Quang\",\r\n    \"password\":\"123\",\r\n    \"email\":\"B16DCVT136@ptit.edu.vn\",\r\n    \"tel\":\"0376018099\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://1.55.212.49:8098/DemoBackend3D_API/user/signup",
+					"protocol": "http",
+					"host": [
+						"1",
+						"55",
+						"212",
+						"49"
+					],
+					"port": "8098",
+					"path": [
+						"DemoBackend3D_API",
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"student_id\":\"B16DCVT136\",\r\n    \"password\":\"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://1.55.212.49:8098/DemoBackend3D_API/user/login",
+					"protocol": "http",
+					"host": [
+						"1",
+						"55",
+						"212",
+						"49"
+					],
+					"port": "8098",
+					"path": [
+						"DemoBackend3D_API",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateLastStatePlayer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"session_id\":\"66a095e8-2ea3-4c5b-b359-e927f693f24a\",\r\n    \"details\":{\r\n        \"score\":50,\r\n        \"x\":123.12,\r\n        \"y\":123.23,\r\n        \"level\":3\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://1.55.212.49:8098/DemoBackend3D_API/player/updateLastStatePlayer",
+					"protocol": "http",
+					"host": [
+						"1",
+						"55",
+						"212",
+						"49"
+					],
+					"port": "8098",
+					"path": [
+						"DemoBackend3D_API",
+						"player",
+						"updateLastStatePlayer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getLastStatePlayer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"session_id\":\"e3c9bfd9-9adb-4995-8294-a9b6499989ad\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://1.55.212.49:8098/DemoBackend3D_API/player/getLastStatePlayer",
+					"protocol": "http",
+					"host": [
+						"1",
+						"55",
+						"212",
+						"49"
+					],
+					"port": "8098",
+					"path": [
+						"DemoBackend3D_API",
+						"player",
+						"getLastStatePlayer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "leaderboardPlayer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"session_id\":\"66a095e8-2ea3-4c5b-b359-e927f693f24a\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://1.55.212.49:8098/DemoBackend3D_API/player/getLeaderboard",
+					"protocol": "http",
+					"host": [
+						"1",
+						"55",
+						"212",
+						"49"
+					],
+					"port": "8098",
+					"path": [
+						"DemoBackend3D_API",
+						"player",
+						"getLeaderboard"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

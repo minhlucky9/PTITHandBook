@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b8fb76b99894d48bb526e5bb6840c2, type: 3}
+  m_Name: QuestCollectEmoticon
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: QuestCollectEmoticon
+  displayName: "Thu th\u1EADp c\xE1c emotion"
+  levelRequirement: 1
+  questPrerequisites: []
+  questSteps:
+  - stepId: step1
+    missionType: 0
+    stepName: "Tu\u1EA5n c\xF3 chuy\u1EC7n mu\u1ED1n n\xF3i v\u1EDBi b\u1EA1n"
+    stepDescription: "Anh Tu\u1EA5n \u0111ang \u0111\u1EE9ng \u1EDF b\xEAn c\u1EA1nh
+      nh\xE0 xe c\xF3 chuy\u1EC7n mu\u1ED1n n\xF3i v\u1EDBi b\u1EA1n"
+    npcId: NPCTuan
+    npcStatus: 1
+    conservation: {fileID: 11400000, guid: ea2e71b28f8caac44a35e73445443330, type: 2}
+    nextStep: step2
+  - stepId: step2
+    missionType: 1
+    stepName: "Thu th\u1EADp 10 emoticon"
+    stepDescription: "H\xE3y thu th\u1EADp \u0111\u1EE7 10 emoticon \u0111\u1EC3
+      nh\u1EADn ph\u1EA7n th\u01B0\u1EDFng t\u1EEB Tu\u1EA5n"
+    npcId: NPCTuan
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: c7ce4d9f4e4bb9946ae992b82074339e, type: 2}
+    nextStep: step3
+  - stepId: step3
+    missionType: 0
+    stepName: "G\u1EB7p Tu\u1EA5n \u0111\u1EC3 nh\u1EADn ph\u1EA7n th\u01B0\u1EDFng"
+    stepDescription: "\u0110\u1EBFn g\u1EB7p Tu\u1EA5n \u0111\u1EC3 nh\u1EADn ph\u1EA7n
+      th\u01B0\u1EDFng x\u1EE9ng \u0111\xE1ng v\u1EDBi s\u1EF1 n\u1ED7 l\u1EF1c c\u1EE7a
+      b\u1EA1n"
+    npcId: NPCTuan
+    npcStatus: 3
+    conservation: {fileID: 11400000, guid: d6355dccc4beac34d88094c3b6af4610, type: 2}
+    nextStep: 
+  goldReward: 50
+  experienceReward: 250
+  itemRewards: []

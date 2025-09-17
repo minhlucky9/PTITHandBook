@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b8fb76b99894d48bb526e5bb6840c2, type: 3}
+  m_Name: QuestCollectStar
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: QuestCollectStar
+  displayName: "Thu th\u1EADp c\xE1c ng\xF4i sao"
+  levelRequirement: 1
+  questPrerequisites:
+  - {fileID: 11400000, guid: 0aa1745188a07aa41b2adaf065a8fea1, type: 2}
+  questSteps:
+  - stepId: step1
+    missionType: 0
+    stepName: "Quang Hi\u1EBFu c\xF3 chuy\u1EC7n mu\u1ED1n n\xF3i v\u1EDBi b\u1EA1n"
+    stepDescription: "H\xE3y \u0111\u1EBFn g\u1EB7p b\xED th\u01B0 chi \u0111o\xE0n
+      Quang Hi\u1EBFu \u1EDF tr\u01B0\u1EDBc c\u1ED5ng tr\u01B0\u1EDDng \u0111\u1EC3
+      tham gia gi\u1EA3i ch\u1EA1y PTIT"
+    npcId: NPCQuang
+    npcStatus: 1
+    conservation: {fileID: 11400000, guid: debb9f7b10a4b454487d29fb96af4e16, type: 2}
+    nextStep: step2
+  - stepId: step2
+    missionType: 1
+    stepName: "Gi\u1EA3i ch\u1EA1y \u0111\xE3 b\u1EAFt \u0111\u1EA7u, h\xE3y thu
+      th\u1EADp c\xE1c l\xE1 c\u1EDD v\xE0 v\u1EC1 \u0111\xEDch th\xF4i n\xE0o"
+    stepDescription: "Gi\u1EA3i ch\u1EA1y \u0111\xE3 b\u1EAFt \u0111\u1EA7u, h\xE3y
+      thu th\u1EADp c\xE1c l\xE1 c\u1EDD v\xE0 v\u1EC1 \u0111\xEDch th\xF4i n\xE0o"
+    npcId: NPCQuang
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: 371ca145fdfe2c64aa429940b7c1b171, type: 2}
+    nextStep: step3
+  - stepId: step3
+    missionType: 0
+    stepName: "G\u1EB7p Quang Hi\u1EBFu \u0111\u1EC3 nh\u1EADn ph\u1EA7n th\u01B0\u1EDFng"
+    stepDescription: "\u0110\u1EBFn g\u1EB7p Quang Hi\u1EBFu, \u0111\u1EC3 nh\u1EADn
+      ph\u1EA7n th\u01B0\u1EDFng x\u1EE9ng \u0111\xE1ng cho s\u1EF1 c\u1ED1 g\u1EAFng
+      c\u1EE7a b\u1EA1n."
+    npcId: NPCQuang
+    npcStatus: 3
+    conservation: {fileID: 11400000, guid: c453cda50e7c4f74589abd1e36c8f98f, type: 2}
+    nextStep: 
+  goldReward: 120
+  experienceReward: 250
+  bonusMedal: 0
+  itemRewards: []
+  questIcon: {fileID: 21300000, guid: 8d0ee7d8f5efbef4284a1f615d7879c0, type: 3}
+  isAdvancedQuest: 1
+  questType: 2

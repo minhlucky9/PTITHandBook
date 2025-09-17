@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b252ce2f637574a9ccc15449c628ad, type: 3}
+  m_Name: NPCThuVien
+  m_EditorClassIdentifier: 
+  npcId: NPCThuVien
+  npcName: Long
+  npcRole: "Ng\u01B0\u1EDDi tr\u1EF1c th\u01B0 vi\u1EC7n"
+  normalConservation: {fileID: 11400000, guid: d827d5ac8da0bbf40a8487d5361fc75b, type: 2}

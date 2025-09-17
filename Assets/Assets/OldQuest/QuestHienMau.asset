@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b8fb76b99894d48bb526e5bb6840c2, type: 3}
+  m_Name: QuestHienMau
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: QuestHienMau
+  displayName: "Hi\u1EBFn m\xE1u"
+  levelRequirement: 1
+  questPrerequisites: []
+  questSteps:
+  - stepId: step1
+    missionType: 0
+    stepName: "G\u1EB7p nh\xE2n vi\xEAn"
+    stepDescription: "G\u1EB7p nh\xE2n vi\xEAn"
+    npcId: NPCHienMau
+    npcStatus: 1
+    conservation: {fileID: 11400000, guid: db9e648e5b2a449449a24c6eba1782c9, type: 2}
+    nextStep: step2
+  - stepId: step2
+    missionType: 0
+    stepName: "Hi\u1EBFn m\xE1u"
+    stepDescription: "Hi\u1EBFn m\xE1u"
+    npcId: NPCHienMau
+    npcStatus: 3
+    conservation: {fileID: 11400000, guid: 172740e1d5147f042a2674e571485bda, type: 2}
+    nextStep: 
+  goldReward: 50
+  experienceReward: 250
+  itemRewards: []
+  questIcon: {fileID: 0}
+  isAdvancedQuest: 1
+  questType: 4

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 821299ec06fa1a045bb07550c94e1578, type: 3}
+  m_Name: CryptoGram
+  m_EditorClassIdentifier: 
+  minigameId: QuestCryptogram_step2
+  questId: QuestCryptogram
+  stepId: step2
+  targetNPC: {fileID: 0}

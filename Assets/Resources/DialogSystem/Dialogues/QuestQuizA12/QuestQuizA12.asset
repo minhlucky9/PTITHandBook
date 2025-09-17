@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bde469a0977f4488098765bf5c53d6, type: 3}
+  m_Name: QuestQuizA12
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: QuestQuizA12
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: cd1b521cdecac704a9dd10382849d7bf, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 20fe7e5f1602a0046a676383d00cba29, type: 2}
+      - {fileID: 11400000, guid: 19a566262856b3e4aa518af968c5e011, type: 2}
+      - {fileID: 11400000, guid: 7112ff04acb6f424bbddbfb6aa847c5a, type: 2}
+      - {fileID: 11400000, guid: c1afb9a88f4293c40b0e949ce31d9c16, type: 2}
+    - Key: {fileID: 11400000, guid: dc53cdf376a26d34abc4f8fc8afc59e7, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 15b3f089aaa88364d98f992617fb3a57, type: 2}
+      - {fileID: 11400000, guid: 3fc05c22468fe8a4fafffcd87c47c89c, type: 2}
+    - Key: {fileID: 11400000, guid: f9bc6d6dd316e7744b14a08a666eabb9, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 6837203bdd7fd004d8e5bdb69a78f148, type: 2}
+    - Key: {fileID: 11400000, guid: 7630f5e55cf10c14aba8bb9fe5b111ce, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 2a2dca58eae86934c9e3da818c407b0b, type: 2}
+    - Key: {fileID: 11400000, guid: 73d8e39402f4f074c8c8c679ce10a4c6, type: 2}
+      Value:
+      - {fileID: 11400000, guid: f8732d14cf2359747a9a58c7153ff44e, type: 2}
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: b853ea512b9a6f74da5fc6f99e7b735a, type: 2}
+  - {fileID: 11400000, guid: f47022dfb55d1c64a8b626be15898ee9, type: 2}
+  - {fileID: 11400000, guid: 78b73e5d4d1562045ae607dc45fde069, type: 2}
+  - {fileID: 11400000, guid: 58be7e1877606f4469a99ef20a4d081f, type: 2}

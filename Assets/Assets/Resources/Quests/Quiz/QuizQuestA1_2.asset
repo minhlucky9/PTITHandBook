@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b8fb76b99894d48bb526e5bb6840c2, type: 3}
+  m_Name: QuizQuestA1_2
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: QuizQuestA1_2
+  displayName: Answer quiz outside A1 part 2
+  levelRequirement: 1
+  questPrerequisites:
+  - {fileID: 11400000, guid: 9dd8ad47658b34a41805dc8178e65ee0, type: 2}
+  questSteps:
+  - stepId: step1
+    missionType: 0
+    stepName: "N\xF3i chuy\u1EC7n v\u1EDBi nh\xE2n vi\xEAn ph\xF2ng gi\xE1o v\u1EE5
+      Nguy\u1EC5n Th\xFAy V\xE2n"
+    stepDescription: "G\u1EB7p Nguy\u1EC5n Th\xFAy V\xE2n \u1EDF c\u1EEDa ch\xEDnh
+      nh\xE0 A1, c\xF4 \u1EA5y c\xF3 m\u1ED9t s\u1ED1 c\xE2u h\u1ECFi \u0111\u1EC3
+      ki\u1EC3m tra s\u1EF1 hi\u1EC3u bi\u1EBFt c\u1EE7a sinh vi\xEAn v\u1EC1 c\u01A1
+      c\u1EA5u t\u1ED5 ch\u1EE9c c\u1EE7a h\u1ECDc vi\u1EC7n."
+    npcId: NPCQuestQuizA1_2
+    npcStatus: 1
+    conservation: {fileID: 11400000, guid: 07addb06d0795ab419f013c3ac5999ce, type: 2}
+    nextStep: step2
+  - stepId: step2
+    missionType: 1
+    stepName: "Tr\u1EA3 l\u1EDDi c\xE2u h\u1ECFi c\u1EE7a c\xF4 V\xE2n"
+    stepDescription: "B\u1EA1n c\xF3 th\u1EC3 t\xECm hi\u1EC3u th\xF4ng tin v\u1EC1
+      c\xE2u h\u1ECFi th\xF4ng qua t\xE0i li\u1EC7u 2 trong t\xFAi \u0111\u1ED3.
+      Khi b\u1EA1n \u0111\xE3 s\u1EB5n s\xE0ng, h\xE3y \u0111\u1EBFn g\u1EB7p c\xF4
+      V\xE2n. C\xF4 s\u1EBD \u0111\u1EB7t b\u1EA1n m\u1ED9t s\u1ED1 c\xE2u h\u1ECFi."
+    npcId: NPCQuestQuizA1_2
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: a7c981490fbe0aa448913a058be7dfcf, type: 2}
+    nextStep: 
+  goldReward: 50
+  experienceReward: 50
+  itemRewards: []
+  questIcon: {fileID: 21300000, guid: d4c3326f022855d42b93d351ea7dfb0f, type: 3}
+  isAdvancedQuest: 0
+  questType: 1

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b8fb76b99894d48bb526e5bb6840c2, type: 3}
+  m_Name: QuestHelpFriend
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: QuestHelpFriend
+  displayName: "Gi\xFAp \u0111\u1EE1 b\u1EA1n"
+  levelRequirement: 1
+  questPrerequisites: []
+  questSteps:
+  - stepId: step1
+    missionType: 0
+    stepName: "H\xF9ng c\xF3 chuy\u1EC7n mu\u1ED1n n\xF3i v\u1EDBi b\u1EA1n"
+    stepDescription: "H\xF9ng \u0111ang \u0111\xF3i v\xE0 c\u1EA7n \u0103n"
+    npcId: NPCHung
+    npcStatus: 1
+    conservation: {fileID: 11400000, guid: 2db968ea0eb383b4ab59bd1bc5cea671, type: 2}
+    nextStep: step2
+  - stepId: step2
+    missionType: 1
+    stepName: "Mua \u0111\u1ED3 \u0103n cho H\xF9ng"
+    stepDescription: "H\xF9ng \u0111ang \u0111\xF3i v\xE0 c\u1EA7n \u0103n"
+    npcId: NPCHung
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: 1b4838b2a7a6ca848b31b49beee8a6e6, type: 2}
+    nextStep: step3
+  - stepId: step3
+    missionType: 0
+    stepName: "G\u1EB7p H\xF9ng \u0111\u1EC3 nh\u1EADn th\u01B0\u1EDFng"
+    stepDescription: "H\xF9ng \u0103n, H\xF9ng vui, H\xF9ng th\u01B0\u1EDFng"
+    npcId: NPCHung
+    npcStatus: 3
+    conservation: {fileID: 11400000, guid: 2e84508a3794c664dbfb29ae1cbbfab3, type: 2}
+    nextStep: step3
+  goldReward: 50
+  experienceReward: 250
+  itemRewards: []
+  questType: 4

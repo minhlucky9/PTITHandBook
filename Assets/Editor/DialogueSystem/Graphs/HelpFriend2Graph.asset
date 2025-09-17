@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b428b8e278e3f47b92553995e985de, type: 3}
+  m_Name: HelpFriend2Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: HelpFriend2
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 60dfae8d-c657-4fcd-b2ca-ec998c8b61e8
+    <Name>k__BackingField: NORMAL
+    <Position>k__BackingField: {x: 1217.6, y: 667.2001}
+  - <ID>k__BackingField: b31782d5-a478-4d9c-88c3-4f587e3c1355
+    <Name>k__BackingField: AfterFinish
+    <Position>k__BackingField: {x: 1842.3999, y: 1326.4}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 905d1b06-6a42-47b5-9566-6e17d064f504
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: "Hello b\u1EA1n, t\xF4i nh\u1EDD b\u1EA1n m\u1ED9t x\xEDu
+      \u0111\u01B0\u1EE3c kh\xF4ng b\u1EA1n \u01A1i."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "\u0110\u01B0\u1EE3c b\u1EA1n \u01A1i"
+      <NodeID>k__BackingField: 94b9f187-fd81-45f6-badd-102ec0974242
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+      <Icon>k__BackingField: {fileID: 0}
+    - <Text>k__BackingField: "Kh\xF4ng \u0111\u01B0\u1EE3c b\u1EA1n \u01A1i"
+      <NodeID>k__BackingField: 50b7b624-cbb0-4516-9608-f9a5e2f4b54d
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+      <Icon>k__BackingField: {fileID: 0}
+    <Icon>k__BackingField: {fileID: 0}
+    <GroupID>k__BackingField: 60dfae8d-c657-4fcd-b2ca-ec998c8b61e8
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1243.2, y: 806.39996}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: 94b9f187-fd81-45f6-badd-102ec0974242
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: "T\xF4i l\xE0m r\u01A1i th\u1EBB sinh vi\xEAn \u1EDF \u0111\xE2u
+      \u0111\xF3 g\u1EA7n v\u01B0\u1EDDn hoa r\u1ED3i, b\u1EA1n gi\xFAp t\xF4i t\xECm
+      th\u1EBB sinh vi\xEAn d\u01B0\u1EE3c kh\xF4ng b\u1EA1n"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "\u0110\u01B0\u1EE3c b\u1EA1n \u01A1i"
+      <NodeID>k__BackingField: 367d8f24-a617-4301-add3-123cc31d3d03
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+      <Icon>k__BackingField: {fileID: 0}
+    <Icon>k__BackingField: {fileID: 0}
+    <GroupID>k__BackingField: 60dfae8d-c657-4fcd-b2ca-ec998c8b61e8
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1767.2, y: 727.2}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: 50b7b624-cbb0-4516-9608-f9a5e2f4b54d
+    <Name>k__BackingField: 3
+    <Text>k__BackingField: "V\u1EADy th\xEC xin l\u1ED7i v\xEC \u0111\xE3 l\xE0m
+      phi\u1EC1n b\u1EA1n"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: OK
+      <NodeID>k__BackingField: 
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+      <Icon>k__BackingField: {fileID: 0}
+    <Icon>k__BackingField: {fileID: 0}
+    <GroupID>k__BackingField: 60dfae8d-c657-4fcd-b2ca-ec998c8b61e8
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1826.3999, y: 1016.8}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: 367d8f24-a617-4301-add3-123cc31d3d03
+    <Name>k__BackingField: 4
+    <Text>k__BackingField: "V\u1EADy th\xEC c\u1EA3m \u01A1n b\u1EA1n nh\xE9. Th\u1EBB
+      c\u1EE7a t\xF4i ch\u1EAFc ch\u1EC9 n\u1EB1m \u0111\xE2u \u0111\xF3 quanh \u0111\xE2y
+      th\xF4i"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: OK
+      <NodeID>k__BackingField: 
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+      <Icon>k__BackingField: {fileID: 0}
+    <Icon>k__BackingField: {fileID: 0}
+    <GroupID>k__BackingField: 60dfae8d-c657-4fcd-b2ca-ec998c8b61e8
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2422.4, y: 940.8}
+    <ExecutedFunction>k__BackingField: 4
+    <NextExecutedFunction>k__BackingField: 0
+  - <ID>k__BackingField: 3e2bb632-eca5-482b-b9da-45bad8ebb410
+    <Name>k__BackingField: 5
+    <Text>k__BackingField: "H\xE3y ti\u1EBFp t\u1EE5c tham quan tr\u01B0\u1EDDng
+      em nh\xE9"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "V\xE2ng \u1EA1"
+      <NodeID>k__BackingField: 
+      <ExecutedFunction>k__BackingField: 0
+      <NextExecutedFunction>k__BackingField: 0
+      <Icon>k__BackingField: {fileID: 0}
+    <Icon>k__BackingField: {fileID: 0}
+    <GroupID>k__BackingField: b31782d5-a478-4d9c-88c3-4f587e3c1355
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1868, y: 1386.4}
+    <ExecutedFunction>k__BackingField: 0
+    <NextExecutedFunction>k__BackingField: 0
+  <OldGroupNames>k__BackingField:
+  - NORMAL
+  - AfterFinish
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: NORMAL
+      Value:
+      - 1
+      - 2
+      - 3
+      - 4
+    - Key: AfterFinish
+      Value:
+      - 5

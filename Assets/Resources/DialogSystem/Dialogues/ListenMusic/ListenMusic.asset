@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bde469a0977f4488098765bf5c53d6, type: 3}
+  m_Name: ListenMusic
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: ListenMusic
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: 7f13a507a46fdb540bee686d554bcf83, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 307db286335dc5049a986f2e61a563db, type: 2}
+      - {fileID: 11400000, guid: da04bfb3520a7db4c91ffff134616bd3, type: 2}
+      - {fileID: 11400000, guid: c3191403ac200424595b67b48f5cd06c, type: 2}
+      - {fileID: 11400000, guid: fa1a35331bad5e840af53109df9a7446, type: 2}
+      - {fileID: 11400000, guid: 065e6701bc42bcd478567865603a9c3c, type: 2}
+      - {fileID: 11400000, guid: 06f747d7e8888034fb52725bd899a1e4, type: 2}
+    - Key: {fileID: 11400000, guid: 4ab7fbc22ade6494b86c14662675b20b, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 2aca9efd3a546754786e1e2ec13c2ffd, type: 2}
+    - Key: {fileID: 11400000, guid: 633331dc94678d4468aa100722170ed7, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 861a04b075bfeb74aaedb5fe40f86b72, type: 2}
+    - Key: {fileID: 11400000, guid: a3cdf78c50f5f024b9af5d795ac0dbf7, type: 2}
+      Value:
+      - {fileID: 11400000, guid: a53d2db5415ff3c48ab20e2d2adb31d6, type: 2}
+    - Key: {fileID: 11400000, guid: c5db176ec38dbc44b95ce07092b3013e, type: 2}
+      Value:
+      - {fileID: 11400000, guid: fd89c14258c84ac4fadd77a7796a6dac, type: 2}
+  <UngroupedDialogues>k__BackingField: []

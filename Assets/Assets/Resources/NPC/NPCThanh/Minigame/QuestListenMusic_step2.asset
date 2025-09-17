@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8675033c89e01e045840dacd37af3fa5, type: 3}
+  m_Name: QuestListenMusic_step2
+  m_EditorClassIdentifier: 
+  minigameId: QuestListenMusic_step2
+  questId: QuestListenMusic
+  stepId: step2
+  targetNPC: {fileID: 0}
+  numberOfQuestion: 6
+  numberOfMaxWrong: 1
+  qnas:
+  - Question: "\u0110i\u1EC1n v\xE0o ch\u1ED7 c\xF2n thi\u1EBFu l\u1EDDi b\xE0i h\xE1t
+      : T\u1EF1 h\xE0o thay h\u1ECDc vi\u1EC7n ch\xFAng ta , v\xEC t\u1ED5 qu\u1ED1c
+      xin d\xE2ng hi\u1EBFn...."
+    Answers:
+    - "tu\u1ED5i thanh xu\xE2n"
+    - "tu\u1ED5i xu\xE2n xanh"
+    - "l\xF2ng nhi\u1EC7t huy\u1EBFt"
+    - "tr\xE1i tim n\xE0y"
+    CorrectAnswer: 1
+    Explaination: "Ch\u1ED7 c\xF2n thi\u1EBFu l\u1EDDi b\xE0i h\xE1t l\xE0 <color=#06FFE6>tu\u1ED5i
+      thanh xu\xE2n</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "\u0110i\u1EC1n v\xE0o ch\u1ED7 c\xF2n thi\u1EBFu l\u1EDDi b\xE0i h\xE1t:
+      Bao l\u1EDBp ng\u01B0\u1EDDi ra \u0111i kh\u1EAFp m\u1ECDi mi\u1EC1n,.....
+      cho \u0111\u1EA5t n\u01B0\u1EDBc m\u1EA1nh gi\xE0u"
+    Answers:
+    - "l\xE0m ch\u1EE7 c\xF4ng ngh\u1EC7"
+    - "l\xE0m ch\u1EE7 khoa h\u1ECDc"
+    - "x\xE2y d\u1EF1ng c\xF4ng ngh\u1EC7"
+    - "nghi\xEAn c\u1EE9u c\xF4ng ngh\u1EC7"
+    CorrectAnswer: 2
+    Explaination: "Ch\u1ED7 c\xF2n thi\u1EBFu l\u1EDDi b\xE0i h\xE1t l\xE0 <color=#06FFE6>l\xE0m
+      ch\u1EE7 khoa h\u1ECDc</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "B\xE0i h\xE1t v\u1EEBa ph\xE1t t\xEAn l\xE0"
+    Answers:
+    - "Vinh quang H\u1ECDc vi\u1EC7n C\xF4ng ngh\u1EC7 B\u01B0u ch\xEDnh Vi\u1EC5n
+      th\xF4ng"
+    - "Vinh quang H\u1ECDc vi\u1EC7n B\u01B0u ch\xEDnh Vi\u1EC5n Th\xF4ng"
+    - "T\u1EF1 h\xE0o H\u1ECDc vi\u1EC7n C\xF4ng ngh\u1EC7 B\u01B0u ch\xEDnh Vi\u1EC5n
+      th\xF4ng"
+    - "Ch\xFAng t\xF4i l\xE0 H\u1ECDc vi\u1EC7n C\xF4ng ngh\u1EC7 B\u01B0u ch\xEDnh
+      vi\u1EC5n th\xF4ng"
+    CorrectAnswer: 1
+    Explaination: "B\xE0i h\xE1t v\u1EEBa ph\xE1t t\xEAn l\xE0 <color=#06FFE6>Vinh
+      quang H\u1ECDc vi\u1EC7n C\xF4ng ngh\u1EC7 B\u01B0u ch\xEDnh Vi\u1EC5n th\xF4ng</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "\u0110i\u1EC1n t\u1EEB v\xE0o ch\u1ED7 c\xF2n thi\u1EBFu l\u1EDDi
+      b\xE0i h\xE1t: T\u1EEB ng\xE0n x\u01B0a cha \xF4ng ta ....Th\u1EEDa b\u1EADc
+      hoang nh\u1EEFng gi\u1EA5c m\u1ED9ng s\u1EBD bi\u1EBFt th\xEC.\n"
+    Answers:
+    - "gi\u1EEF n\u01B0\u1EDBc"
+    - "d\u1EF1ng n\u01B0\u1EDBc"
+    - "\u0111\xE1nh gi\u1EB7c"
+    - "b\u1EA3o v\u1EC7 t\u1ED5 qu\u1ED1c"
+    CorrectAnswer: 2
+    Explaination: "Ch\u1ED7 c\xF2n thi\u1EBFu l\u1EDDi b\xE0i h\xE1t l\xE0 <color=#06FFE6>d\u1EF1ng
+      n\u01B0\u1EDBc</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "\u0110i\u1EC1n t\u1EEB v\xE0o ch\u1ED7 c\xF2n thi\u1EBFu l\u1EDDi
+      b\xE0i h\xE1t: Vinh quang ch\u1EB7ng \u0111\u01B0\u1EDDng ch\xFAng ta \u0111\xE3
+      qua .\nV\u1EDBi .... ta l\u1EDBn l\xEAn c\xF9ng \u0111\u1EA5t n\u01B0\u1EDBc"
+    Answers:
+    - "ni\u1EC1m tin"
+    - "m\xF9a xu\xE2n"
+    - "kh\xE1t v\u1ECDng"
+    - "\u01B0\u1EDBc m\u01A1"
+    CorrectAnswer: 2
+    Explaination: "Ch\u1ED7 c\xF2n thi\u1EBFu l\u1EDDi b\xE0i h\xE1t l\xE0 <color=#06FFE6>m\xF9a
+      xu\xE2n</color>."
+    QuestionImage: {fileID: 0}
+  - Question: "\u0110i\u1EC1n t\u1EEB v\xE0o ch\u1ED7 c\xF2n thi\u1EBFu l\u1EDDi
+      b\xE0i h\xE1t: Bao n\u0103m qua ta kh\xF4n l\u1EDBn t\u1EEBng ng\xE0y . .....ta
+      lu\xF4n kh\u1EAFc nghi trong l\xF2ng. "
+    Answers:
+    - "L\u1EDDi th\u1EA7y c\xF4"
+    - "H\u1ECDc vi\u1EC7n "
+    - "t\xECnh th\u1EA7y c\xF4"
+    - "M\xE1i tr\u01B0\u1EDDng x\u01B0a"
+    CorrectAnswer: 3
+    Explaination: "Ch\u1ED7 c\xF2n thi\u1EBFu l\u1EDDi b\xE0i h\xE1t l\xE0 <color=#06FFE6>t\xECnh
+      th\u1EA7y c\xF4</color>."
+    QuestionImage: {fileID: 0}
+  quizIntro:
+    dialogId: intro
+    message: "Ok v\u1EADy m\xECnh b\u1EAFt \u0111\u1EA7u nh\xE9. Th\u1EA7y s\u1EBD
+      c\xF3 t\u1EA5t c\u1EA3 6 c\xE2u h\u1ECFi li\xEAn quan \u0111\u1EBFn b\xE0i
+      h\xE1t. H\xE3y l\u01B0u \xFD em ch\u1EC9 \u0111\u01B0\u1EE3c ph\xE9p tr\u1EA3
+      l\u1EDDi sai t\u1ED1i \u0111a 2 c\xE2u."
+    nodeSize: {x: 200, y: 100}
+    voice: {fileID: 0}
+    possibleResponses:
+    - message: "V\xE2ng \u1EA1"
+      icon: {fileID: 0}
+      nextDialogId: 
+      executedFunction: 1
+      NextExecutedFunction: 0
+    nodePosition: {x: 10, y: 10}

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b8fb76b99894d48bb526e5bb6840c2, type: 3}
+  m_Name: QuestSanA+
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: QuestSanA+
+  displayName: "S\u0103n A+"
+  levelRequirement: 0
+  questPrerequisites: []
+  questSteps:
+  - stepId: step1
+    missionType: 0
+    stepName: "G\u1EB7p anh Minh Tu\u1EA5n"
+    stepDescription: "G\u1EB7p anh Minh Tu\u1EA5n t\u1EA1i v\u01B0\u1EDDn th\u01B0\u1EE3ng
+      uy\xEAn"
+    npcId: NPCSan+
+    npcStatus: 1
+    conservation: {fileID: 11400000, guid: 8d9a82a90bab14c488acac81d6d19b4b, type: 2}
+    nextStep: step2
+  - stepId: step2
+    missionType: 1
+    stepName: "G\u1EB7p nh\xE2n vi\xEAn \u1EDF qu\xE1n photo "
+    stepDescription: "G\u1EB7p nh\xE2n vi\xEAn \u1EDF qu\xE1n photo \u0111\u1EC3
+      t\xECm b\u1ED9 \u0111\u1EC1 truy\u1EC1n k\u1EF3"
+    npcId: NPCSan+
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: 603752f30779ade4fba75cb6030d2df4, type: 2}
+    nextStep: step3
+  - stepId: step3
+    missionType: 1
+    stepName: "G\u1EB7p \u0111\xE0n anh tr\u01B0\u1EDBc th\u01B0 vi\u1EC7n"
+    stepDescription: "G\u1EB7p \u0111\xE0n anh tr\u01B0\u1EDBc th\u01B0 vi\u1EC7n
+      \u0111\u1EC3 l\u1EA5y t\xE0i li\u1EC7u"
+    npcId: NPCSan+
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: efd8a4424e8269c488854114b3522989, type: 2}
+    nextStep: step4
+  - stepId: step4
+    missionType: 1
+    stepName: "S\u1EDF h\u1EEFu b\xE1nh m\xEC"
+    stepDescription: "S\u1EDF h\u1EEFu b\xE1nh m\xEC ch\u1ED1ng \u0111\xF3i"
+    npcId: NPCSan+
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: 8d42986aa56af2342a0cc339413d95c7, type: 2}
+    nextStep: step5
+  - stepId: step5
+    missionType: 1
+    stepName: "\u0110\u1EE9ng \u1EDF c\u1ED9t wifi ktx B5"
+    stepDescription: "\u0110\u1EE9ng \u1EDF c\u1ED9t wifi ktx B5 \u0111\u1EC3 c\u1EADp
+      nh\u1EADp t\xE0i li\u1EC7u"
+    npcId: NPCSan+
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: aa34eefdaca86ce4e9b63bd63fce0d40, type: 2}
+    nextStep: step6
+  - stepId: step6
+    missionType: 1
+    stepName: "G\u1EB7p t\u1EA3ng \u0111\xE1 th\u1EA7n"
+    stepDescription: "G\u1EB7p t\u1EA3ng \u0111\xE1 th\u1EA7n \u0111\u1EC3 c\u1EA7u
+      nguy\u1EC7n"
+    npcId: NPCSan+
+    npcStatus: 2
+    conservation: {fileID: 11400000, guid: d32130bba494b4e4596b6aa4c33ed6e3, type: 2}
+    nextStep: step7
+  - stepId: step7
+    missionType: 0
+    stepName: "G\u1EB7p l\u1EA1i anh Minh Tu\u1EA5n"
+    stepDescription: "G\u1EB7p l\u1EA1i anh Minh Tu\u1EA5n \u0111\u1EC3 nh\u1EADn
+      ph\u1EA7n th\u01B0\u1EDFng"
+    npcId: NPCSan+
+    npcStatus: 3
+    conservation: {fileID: 11400000, guid: 96eb5171b1602dc4fadab8fdaea4c81d, type: 2}
+    nextStep: 
+  goldReward: 120
+  experienceReward: 0
+  itemRewards: []
+  questIcon: {fileID: 0}
+  isAdvancedQuest: 1
+  questType: 0

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 05eb2346558d9c24892660f2b97b50d3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - categoryPrefab: {fileID: 5492579844062596145, guid: 2c069e8bf16978940b0513069f20d471,
+      type: 3}
+  - productPrefab: {fileID: 5109114692234700783, guid: 7d8bd51ee3f1efe4893d9c2daf4c80f6,
+      type: 3}
+  - itemContainer: {instanceID: 0}
+  - containerScroll: {instanceID: 0}
+  - prevBtn: {instanceID: 0}
+  - nextBtn: {instanceID: 0}
+  - closeBtn: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

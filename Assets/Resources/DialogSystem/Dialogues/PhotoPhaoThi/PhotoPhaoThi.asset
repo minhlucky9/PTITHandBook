@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bde469a0977f4488098765bf5c53d6, type: 3}
+  m_Name: PhotoPhaoThi
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: PhotoPhaoThi
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: 60076d8530be34d4e8a73d80edb8c521, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 0b932755e553894489e532b7781d039c, type: 2}
+      - {fileID: 11400000, guid: f31e3f0fabc321c4b81887b08a733b0d, type: 2}
+      - {fileID: 11400000, guid: cbeb25859c0c10243a8bd6183279f87d, type: 2}
+      - {fileID: 11400000, guid: b11f45f3c2729da43b654efa335dbd1e, type: 2}
+    - Key: {fileID: 11400000, guid: a552c77655cc247418968d9e0642cce9, type: 2}
+      Value:
+      - {fileID: 11400000, guid: ec903c119a284ce40b0f15ab6899a42b, type: 2}
+    - Key: {fileID: 11400000, guid: 6dfa7e60c1efa224dafe88cbfa30bf3e, type: 2}
+      Value:
+      - {fileID: 11400000, guid: ac8ac47621502174b8da255c1fdf7d64, type: 2}
+      - {fileID: 11400000, guid: f15f331df58fe8748931b3b85c0b69a9, type: 2}
+      - {fileID: 11400000, guid: c1b9c9b44585fe445aac0d0992cb012c, type: 2}
+    - Key: {fileID: 11400000, guid: 4dcddaf85b073f04e816a6b482f513d2, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 062a8c2174d5d014e961fddee3befabe, type: 2}
+    - Key: {fileID: 11400000, guid: 92edbe8f32b1f4348a81d711e3665bef, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 8915aba55a67b1d4a82e647c92fed28a, type: 2}
+  <UngroupedDialogues>k__BackingField: []

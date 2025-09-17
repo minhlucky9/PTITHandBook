@@ -1,0 +1,1070 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+<additional_info>
+
+</additional_info>
+
+</file_summary>
+
+<directory_structure>
+Dialogues.meta
+Dialogues/test.meta
+Dialogues/test/Global.meta
+Dialogues/test/Global/Dialogues.meta
+Dialogues/test/Global/Dialogues/node1.asset
+Dialogues/test/Global/Dialogues/node1.asset.meta
+Dialogues/test/Global/Dialogues/node2.asset
+Dialogues/test/Global/Dialogues/node2.asset.meta
+Dialogues/test/Global/Dialogues/node3.asset
+Dialogues/test/Global/Dialogues/node3.asset.meta
+Dialogues/test/Global/Dialogues/node4.asset
+Dialogues/test/Global/Dialogues/node4.asset.meta
+Dialogues/test/Groups.meta
+Dialogues/test/Groups/g1.meta
+Dialogues/test/Groups/g1/Dialogues.meta
+Dialogues/test/Groups/g1/Dialogues/node1.asset
+Dialogues/test/Groups/g1/Dialogues/node1.asset.meta
+Dialogues/test/Groups/g1/Dialogues/node2.asset
+Dialogues/test/Groups/g1/Dialogues/node2.asset.meta
+Dialogues/test/Groups/g1/g1.asset
+Dialogues/test/Groups/g1/g1.asset.meta
+Dialogues/test/test.asset
+Dialogues/test/test.asset.meta
+Enumerations.meta
+Enumerations/DSDialogType.cs
+Enumerations/DSDialogType.cs.meta
+Inspectors.meta
+Inspectors/DSInspector.cs
+Inspectors/DSInspector.cs.meta
+Inspectors/DSInspectorUltility.cs
+Inspectors/DSInspectorUltility.cs.meta
+Script.meta
+Script/Data.meta
+Script/Data/DSDialogueChoiceData.cs
+Script/Data/DSDialogueChoiceData.cs.meta
+Script/DSDialogue.cs
+Script/DSDialogue.cs.meta
+Script/ScriptableObjects.meta
+Script/ScriptableObjects/DSDialogueContainerSO.cs
+Script/ScriptableObjects/DSDialogueContainerSO.cs.meta
+Script/ScriptableObjects/DSDialogueGroupSO.cs
+Script/ScriptableObjects/DSDialogueGroupSO.cs.meta
+Script/ScriptableObjects/DSDialogueSO.cs
+Script/ScriptableObjects/DSDialogueSO.cs.meta
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="Dialogues.meta">
+fileFormatVersion: 2
+guid: c09af935b750ea745be8877d9f897a98
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test.meta">
+fileFormatVersion: 2
+guid: 49b6082e2d89f344d9eef04b58438778
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Global.meta">
+fileFormatVersion: 2
+guid: 61f801382b4480644b552c1754b81c85
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Global/Dialogues.meta">
+fileFormatVersion: 2
+guid: 422a266bf68305f42a09afbb75b02079
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Global/Dialogues/node1.asset">
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d7b3738a990024995e32e354368843, type: 3}
+  m_Name: node1
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: node1
+  <Text>k__BackingField: Dialogue text.
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Next Dialogue
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: c9ec43c38cdde3a448cb0e97ac69a9e9,
+      type: 2}
+  <DialogueType>k__BackingField: 0
+  <IsStartingDialogue>k__BackingField: 1
+</file>
+
+<file path="Dialogues/test/Global/Dialogues/node1.asset.meta">
+fileFormatVersion: 2
+guid: 08ea0810eb03fe4418cd5fd27fdc380a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Global/Dialogues/node2.asset">
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d7b3738a990024995e32e354368843, type: 3}
+  m_Name: node2
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: node2
+  <Text>k__BackingField: Dialogue text.
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: New Choice
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 5ad1157ccbb84b44eaaef2acc109416e,
+      type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
+</file>
+
+<file path="Dialogues/test/Global/Dialogues/node2.asset.meta">
+fileFormatVersion: 2
+guid: c9ec43c38cdde3a448cb0e97ac69a9e9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Global/Dialogues/node3.asset">
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d7b3738a990024995e32e354368843, type: 3}
+  m_Name: node3
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: node3
+  <Text>k__BackingField: Dialogue text.
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: New Choice
+    <NextDialogue>k__BackingField: {fileID: 0}
+  - <Text>k__BackingField: New Choice
+    <NextDialogue>k__BackingField: {fileID: 0}
+  - <Text>k__BackingField: New Choice
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 1a5abc59058fdb342a0641d63bbfe11a,
+      type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
+</file>
+
+<file path="Dialogues/test/Global/Dialogues/node3.asset.meta">
+fileFormatVersion: 2
+guid: 5ad1157ccbb84b44eaaef2acc109416e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Global/Dialogues/node4.asset">
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d7b3738a990024995e32e354368843, type: 3}
+  m_Name: node4
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: node4
+  <Text>k__BackingField: Dialogue text.
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Next Dialogue
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: d9becbfec9a975a4286208543ba5a0dd,
+      type: 2}
+  <DialogueType>k__BackingField: 0
+  <IsStartingDialogue>k__BackingField: 0
+</file>
+
+<file path="Dialogues/test/Global/Dialogues/node4.asset.meta">
+fileFormatVersion: 2
+guid: 1a5abc59058fdb342a0641d63bbfe11a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Groups.meta">
+fileFormatVersion: 2
+guid: 3a837594faa54d8478c3fb79d5460462
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Groups/g1.meta">
+fileFormatVersion: 2
+guid: 9a9daabed42273b4998864baab84d18c
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Groups/g1/Dialogues.meta">
+fileFormatVersion: 2
+guid: cbcad9bb911f59d46b807a00ca414c52
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Groups/g1/Dialogues/node1.asset">
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d7b3738a990024995e32e354368843, type: 3}
+  m_Name: node1
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: node1
+  <Text>k__BackingField: Dialogue text.
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Next Dialogue
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 1f6584a3794603542ab2335b40c02a4c,
+      type: 2}
+  <DialogueType>k__BackingField: 0
+  <IsStartingDialogue>k__BackingField: 0
+</file>
+
+<file path="Dialogues/test/Groups/g1/Dialogues/node1.asset.meta">
+fileFormatVersion: 2
+guid: d9becbfec9a975a4286208543ba5a0dd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Groups/g1/Dialogues/node2.asset">
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d7b3738a990024995e32e354368843, type: 3}
+  m_Name: node2
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: node2
+  <Text>k__BackingField: Dialogue text.
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Next Dialogue
+    <NextDialogue>k__BackingField: {fileID: 0}
+  <DialogueType>k__BackingField: 0
+  <IsStartingDialogue>k__BackingField: 0
+</file>
+
+<file path="Dialogues/test/Groups/g1/Dialogues/node2.asset.meta">
+fileFormatVersion: 2
+guid: 1f6584a3794603542ab2335b40c02a4c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/Groups/g1/g1.asset">
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6626967e3a0a74c4b8a02dc8eb6eac95, type: 3}
+  m_Name: g1
+  m_EditorClassIdentifier: 
+  <GroupName>k__BackingField: g1
+</file>
+
+<file path="Dialogues/test/Groups/g1/g1.asset.meta">
+fileFormatVersion: 2
+guid: a3fcbce16c58a6848930fbe72cce17be
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Dialogues/test/test.asset">
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bde469a0977f4488098765bf5c53d6, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: test
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: a3fcbce16c58a6848930fbe72cce17be, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 1f6584a3794603542ab2335b40c02a4c, type: 2}
+      - {fileID: 11400000, guid: d9becbfec9a975a4286208543ba5a0dd, type: 2}
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: 1a5abc59058fdb342a0641d63bbfe11a, type: 2}
+  - {fileID: 11400000, guid: 08ea0810eb03fe4418cd5fd27fdc380a, type: 2}
+  - {fileID: 11400000, guid: c9ec43c38cdde3a448cb0e97ac69a9e9, type: 2}
+  - {fileID: 11400000, guid: 5ad1157ccbb84b44eaaef2acc109416e, type: 2}
+</file>
+
+<file path="Dialogues/test/test.asset.meta">
+fileFormatVersion: 2
+guid: 98f5fb0ff7cffec46991f281465f3181
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Enumerations.meta">
+fileFormatVersion: 2
+guid: 6b548b2567d13de4b85bde26ed7493a9
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Enumerations/DSDialogType.cs">
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+namespace DS.Enumerations
+{
+    public enum DSDialogType
+    {
+       SingleChoice,
+       MultipleChoice
+    }
+
+}
+</file>
+
+<file path="Enumerations/DSDialogType.cs.meta">
+fileFormatVersion: 2
+guid: 15f2d7567ac1bd54c99f62538a3c5f4e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Inspectors.meta">
+fileFormatVersion: 2
+guid: 855f73852c417ea4d9c4df3e340b04a0
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Inspectors/DSInspector.cs">
+using System.Collections.Generic;
+using UnityEditor;
+
+namespace DS.Inspectors
+{
+    using Utilities;
+    using ScriptableObjects;
+
+    [CustomEditor(typeof(DSDialogue))]
+    public class DSInspector : Editor
+    {
+        /* Dialogue Scriptable Objects */
+        private SerializedProperty dialogueContainerProperty;
+        private SerializedProperty dialogueGroupProperty;
+        private SerializedProperty dialogueProperty;
+
+        /* Filters */
+        private SerializedProperty groupedDialoguesProperty;
+        private SerializedProperty startingDialoguesOnlyProperty;
+
+        /* Indexes */
+        private SerializedProperty selectedDialogueGroupIndexProperty;
+        private SerializedProperty selectedDialogueIndexProperty;
+
+        private void OnEnable()
+        {
+            dialogueContainerProperty = serializedObject.FindProperty("dialogueContainer");
+            dialogueGroupProperty = serializedObject.FindProperty("dialogueGroup");
+            dialogueProperty = serializedObject.FindProperty("dialogue");
+
+            groupedDialoguesProperty = serializedObject.FindProperty("groupedDialogues");
+            startingDialoguesOnlyProperty = serializedObject.FindProperty("startingDialoguesOnly");
+
+            selectedDialogueGroupIndexProperty = serializedObject.FindProperty("selectedDialogueGroupIndex");
+            selectedDialogueIndexProperty = serializedObject.FindProperty("selectedDialogueIndex");
+        }
+
+        public override void OnInspectorGUI()
+        {
+            serializedObject.Update();
+
+            DrawDialogueContainerArea();
+
+            DSDialogueContainerSO currentDialogueContainer = (DSDialogueContainerSO)dialogueContainerProperty.objectReferenceValue;
+
+            if (currentDialogueContainer == null)
+            {
+                StopDrawing("Select a Dialogue Container to see the rest of the Inspector.");
+
+                return;
+            }
+
+            DrawFiltersArea();
+
+            bool currentGroupedDialoguesFilter = groupedDialoguesProperty.boolValue;
+            bool currentStartingDialoguesOnlyFilter = startingDialoguesOnlyProperty.boolValue;
+
+            List<string> dialogueNames;
+
+            string dialogueFolderPath = $"Assets/DialogSystem/Dialogues/{currentDialogueContainer.FileName}";
+
+            string dialogueInfoMessage;
+
+            if (currentGroupedDialoguesFilter)
+            {
+                List<string> dialogueGroupNames = currentDialogueContainer.GetDialogueGroupNames();
+
+                if (dialogueGroupNames.Count == 0)
+                {
+                    StopDrawing("There are no Dialogue Groups in this Dialogue Container.");
+
+                    return;
+                }
+
+                DrawDialogueGroupArea(currentDialogueContainer, dialogueGroupNames);
+
+                DSDialogueGroupSO dialogueGroup = (DSDialogueGroupSO)dialogueGroupProperty.objectReferenceValue;
+
+                dialogueNames = currentDialogueContainer.GetGroupedDialogueNames(dialogueGroup, currentStartingDialoguesOnlyFilter);
+
+                dialogueFolderPath += $"/Groups/{dialogueGroup.GroupName}/Dialogues";
+
+                dialogueInfoMessage = "There are no" + (currentStartingDialoguesOnlyFilter ? " Starting" : "") + " Dialogues in this Dialogue Group.";
+            }
+            else
+            {
+                dialogueNames = currentDialogueContainer.GetUngroupedDialogueNames(currentStartingDialoguesOnlyFilter);
+
+                dialogueFolderPath += "/Global/Dialogues";
+
+                dialogueInfoMessage = "There are no" + (currentStartingDialoguesOnlyFilter ? " Starting" : "") + " Ungrouped Dialogues in this Dialogue Container.";
+            }
+
+            if (dialogueNames.Count == 0)
+            {
+                StopDrawing(dialogueInfoMessage);
+
+                return;
+            }
+
+            DrawDialogueArea(dialogueNames, dialogueFolderPath);
+
+            serializedObject.ApplyModifiedProperties();
+        }
+
+        private void DrawDialogueContainerArea()
+        {
+            DSInspectorUtility.DrawHeader("Dialogue Container");
+
+            dialogueContainerProperty.DrawPropertyField();
+
+            DSInspectorUtility.DrawSpace();
+        }
+
+        private void DrawFiltersArea()
+        {
+            DSInspectorUtility.DrawHeader("Filters");
+
+            groupedDialoguesProperty.DrawPropertyField();
+            startingDialoguesOnlyProperty.DrawPropertyField();
+
+            DSInspectorUtility.DrawSpace();
+        }
+
+        private void DrawDialogueGroupArea(DSDialogueContainerSO dialogueContainer, List<string> dialogueGroupNames)
+        {
+            DSInspectorUtility.DrawHeader("Dialogue Group");
+
+            int oldSelectedDialogueGroupIndex = selectedDialogueGroupIndexProperty.intValue;
+
+            DSDialogueGroupSO oldDialogueGroup = (DSDialogueGroupSO)dialogueGroupProperty.objectReferenceValue;
+
+            bool isOldDialogueGroupNull = oldDialogueGroup == null;
+
+            string oldDialogueGroupName = isOldDialogueGroupNull ? "" : oldDialogueGroup.GroupName;
+
+            UpdateIndexOnNamesListUpdate(dialogueGroupNames, selectedDialogueGroupIndexProperty, oldSelectedDialogueGroupIndex, oldDialogueGroupName, isOldDialogueGroupNull);
+
+            selectedDialogueGroupIndexProperty.intValue = DSInspectorUtility.DrawPopup("Dialogue Group", selectedDialogueGroupIndexProperty, dialogueGroupNames.ToArray());
+
+            string selectedDialogueGroupName = dialogueGroupNames[selectedDialogueGroupIndexProperty.intValue];
+
+            DSDialogueGroupSO selectedDialogueGroup = DSIOUtility.LoadAsset<DSDialogueGroupSO>($"Assets/DialogSystem/Dialogues/{dialogueContainer.FileName}/Groups/{selectedDialogueGroupName}", selectedDialogueGroupName);
+
+            dialogueGroupProperty.objectReferenceValue = selectedDialogueGroup;
+
+            DSInspectorUtility.DrawDisabledFields(() => dialogueGroupProperty.DrawPropertyField());
+
+            DSInspectorUtility.DrawSpace();
+        }
+
+        private void DrawDialogueArea(List<string> dialogueNames, string dialogueFolderPath)
+        {
+            DSInspectorUtility.DrawHeader("Dialogue");
+
+            int oldSelectedDialogueIndex = selectedDialogueIndexProperty.intValue;
+
+            DSDialogueSO oldDialogue = (DSDialogueSO)dialogueProperty.objectReferenceValue;
+
+            bool isOldDialogueNull = oldDialogue == null;
+
+            string oldDialogueName = isOldDialogueNull ? "" : oldDialogue.DialogueName;
+
+            UpdateIndexOnNamesListUpdate(dialogueNames, selectedDialogueIndexProperty, oldSelectedDialogueIndex, oldDialogueName, isOldDialogueNull);
+
+            selectedDialogueIndexProperty.intValue = DSInspectorUtility.DrawPopup("Dialogue", selectedDialogueIndexProperty, dialogueNames.ToArray());
+
+            string selectedDialogueName = dialogueNames[selectedDialogueIndexProperty.intValue];
+
+            DSDialogueSO selectedDialogue = DSIOUtility.LoadAsset<DSDialogueSO>(dialogueFolderPath, selectedDialogueName);
+
+            dialogueProperty.objectReferenceValue = selectedDialogue;
+
+            DSInspectorUtility.DrawDisabledFields(() => dialogueProperty.DrawPropertyField());
+        }
+
+        private void StopDrawing(string reason, MessageType messageType = MessageType.Info)
+        {
+            DSInspectorUtility.DrawHelpBox(reason, messageType);
+
+            DSInspectorUtility.DrawSpace();
+
+            DSInspectorUtility.DrawHelpBox("You need to select a Dialogue for this component to work properly at Runtime!", MessageType.Warning);
+
+            serializedObject.ApplyModifiedProperties();
+        }
+
+        private void UpdateIndexOnNamesListUpdate(List<string> optionNames, SerializedProperty indexProperty, int oldSelectedPropertyIndex, string oldPropertyName, bool isOldPropertyNull)
+        {
+            if (isOldPropertyNull)
+            {
+                indexProperty.intValue = 0;
+
+                return;
+            }
+
+            bool oldIndexIsOutOfBoundsOfNamesListCount = oldSelectedPropertyIndex > optionNames.Count - 1;
+            bool oldNameIsDifferentThanSelectedName = oldIndexIsOutOfBoundsOfNamesListCount || oldPropertyName != optionNames[oldSelectedPropertyIndex];
+
+            if (oldNameIsDifferentThanSelectedName)
+            {
+                if (optionNames.Contains(oldPropertyName))
+                {
+                    indexProperty.intValue = optionNames.IndexOf(oldPropertyName);
+
+                    return;
+                }
+
+                indexProperty.intValue = 0;
+            }
+        }
+    }
+}
+</file>
+
+<file path="Inspectors/DSInspector.cs.meta">
+fileFormatVersion: 2
+guid: fafbff9909319bf4199c7a1c9a6328a1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Inspectors/DSInspectorUltility.cs">
+using System;
+using UnityEditor;
+
+namespace DS.Utilities
+{
+    public static class DSInspectorUtility
+    {
+        public static void DrawDisabledFields(Action action)
+        {
+            EditorGUI.BeginDisabledGroup(true);
+
+            action.Invoke();
+
+            EditorGUI.EndDisabledGroup();
+        }
+
+        public static void DrawHeader(string label)
+        {
+            EditorGUILayout.LabelField(label, EditorStyles.boldLabel);
+        }
+
+        public static void DrawHelpBox(string message, MessageType messageType = MessageType.Info, bool wide = true)
+        {
+            EditorGUILayout.HelpBox(message, messageType, wide);
+        }
+
+        public static int DrawPopup(string label, SerializedProperty selectedIndexProperty, string[] options)
+        {
+            return EditorGUILayout.Popup(label, selectedIndexProperty.intValue, options);
+        }
+
+        public static int DrawPopup(string label, int selectedIndex, string[] options)
+        {
+            return EditorGUILayout.Popup(label, selectedIndex, options);
+        }
+
+        public static bool DrawPropertyField(this SerializedProperty serializedProperty)
+        {
+            return EditorGUILayout.PropertyField(serializedProperty);
+        }
+
+        public static void DrawSpace(int amount = 4)
+        {
+            EditorGUILayout.Space(amount);
+        }
+    }
+}
+</file>
+
+<file path="Inspectors/DSInspectorUltility.cs.meta">
+fileFormatVersion: 2
+guid: 31aba7b0139509644bf6e0263723cd3e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Script.meta">
+fileFormatVersion: 2
+guid: 51ffd64bb61db004d9dbc915110dc12d
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Script/Data.meta">
+fileFormatVersion: 2
+guid: cd5f5d4811a0a0a48970f1bf51c284c4
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Script/Data/DSDialogueChoiceData.cs">
+using System;
+using UnityEngine;
+
+namespace DS.Data
+{
+    using ScriptableObjects;
+
+    [Serializable]
+    public class DSDialogueChoiceData
+    {
+        [field: SerializeField] public string Text { get; set; }
+        [field: SerializeField] public DSDialogueSO NextDialogue { get; set; }
+    }
+}
+</file>
+
+<file path="Script/Data/DSDialogueChoiceData.cs.meta">
+fileFormatVersion: 2
+guid: 333d7ffb920090944bb3d78e5db283dc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Script/DSDialogue.cs">
+using UnityEngine;
+
+namespace DS
+{
+    using ScriptableObjects;
+
+    public class DSDialogue : MonoBehaviour
+    {
+        /* Dialogue Scriptable Objects */
+        [SerializeField] private DSDialogueContainerSO dialogueContainer;
+        [SerializeField] private DSDialogueGroupSO dialogueGroup;
+        [SerializeField] private DSDialogueSO dialogue;
+
+        /* Filters */
+        [SerializeField] private bool groupedDialogues;
+        [SerializeField] private bool startingDialoguesOnly;
+
+        /* Indexes */
+        [SerializeField] private int selectedDialogueGroupIndex;
+        [SerializeField] private int selectedDialogueIndex;
+    }
+}
+</file>
+
+<file path="Script/DSDialogue.cs.meta">
+fileFormatVersion: 2
+guid: 8afa2e34f82c60c48ac850d37319c692
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Script/ScriptableObjects.meta">
+fileFormatVersion: 2
+guid: 12f6193b49fff82498e2f09a55956013
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Script/ScriptableObjects/DSDialogueContainerSO.cs">
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace DS.ScriptableObjects
+{
+    public class DSDialogueContainerSO : ScriptableObject
+    {
+        [field: SerializeField] public string FileName { get; set; }
+        [field: SerializeField] public SerializableDictionary<DSDialogueGroupSO, List<DSDialogueSO>> DialogueGroups { get; set; }
+        [field: SerializeField] public List<DSDialogueSO> UngroupedDialogues { get; set; }
+
+        public void Initialize(string fileName)
+        {
+            FileName = fileName;
+
+            DialogueGroups = new SerializableDictionary<DSDialogueGroupSO, List<DSDialogueSO>>();
+
+            UngroupedDialogues = new List<DSDialogueSO>();
+        }
+
+        public List<string> GetDialogueGroupNames()
+        {
+            List<string> dialogueGroupNames = new List<string>();
+
+            foreach (DSDialogueGroupSO dialogueGroup in DialogueGroups.Keys)
+            {
+                dialogueGroupNames.Add(dialogueGroup.GroupName);
+            }
+
+            return dialogueGroupNames;
+        }
+
+        public List<string> GetGroupedDialogueNames(DSDialogueGroupSO dialogueGroup, bool startingDialoguesOnly)
+        {
+            List<DSDialogueSO> groupedDialogues = DialogueGroups[dialogueGroup];
+
+            List<string> groupedDialogueNames = new List<string>();
+
+            foreach (DSDialogueSO groupedDialogue in groupedDialogues)
+            {
+                if (startingDialoguesOnly && !groupedDialogue.IsStartingDialogue)
+                {
+                    continue;
+                }
+
+                groupedDialogueNames.Add(groupedDialogue.DialogueName);
+            }
+
+            return groupedDialogueNames;
+        }
+
+        public List<string> GetUngroupedDialogueNames(bool startingDialoguesOnly)
+        {
+            List<string> ungroupedDialogueNames = new List<string>();
+
+            foreach (DSDialogueSO ungroupedDialogue in UngroupedDialogues)
+            {
+                if (startingDialoguesOnly && !ungroupedDialogue.IsStartingDialogue)
+                {
+                    continue;
+                }
+
+                ungroupedDialogueNames.Add(ungroupedDialogue.DialogueName);
+            }
+
+            return ungroupedDialogueNames;
+        }
+    }
+}
+</file>
+
+<file path="Script/ScriptableObjects/DSDialogueContainerSO.cs.meta">
+fileFormatVersion: 2
+guid: 62bde469a0977f4488098765bf5c53d6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Script/ScriptableObjects/DSDialogueGroupSO.cs">
+using UnityEngine;
+
+namespace DS.ScriptableObjects
+{
+    public class DSDialogueGroupSO : ScriptableObject
+    {
+        [field: SerializeField] public string GroupName { get; set; }
+
+        public void Initialize(string groupName)
+        {
+            GroupName = groupName;
+        }
+    }
+}
+</file>
+
+<file path="Script/ScriptableObjects/DSDialogueGroupSO.cs.meta">
+fileFormatVersion: 2
+guid: 6626967e3a0a74c4b8a02dc8eb6eac95
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+<file path="Script/ScriptableObjects/DSDialogueSO.cs">
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace DS.ScriptableObjects
+{
+    using Data;
+    using Enumerations;
+
+    public class DSDialogueSO : ScriptableObject
+    {
+        [field: SerializeField] public string DialogueName { get; set; }
+        [field: SerializeField][field: TextArea()] public string Text { get; set; }
+        [field: SerializeField] public List<DSDialogueChoiceData> Choices { get; set; }
+        [field: SerializeField] public DSDialogType DialogueType { get; set; }
+        [field: SerializeField] public bool IsStartingDialogue { get; set; }
+
+        public void Initialize(string dialogueName, string text, List<DSDialogueChoiceData> choices, DSDialogType dialogueType, bool isStartingDialogue)
+        {
+            DialogueName = dialogueName;
+            Text = text;
+            Choices = choices;
+            DialogueType = dialogueType;
+            IsStartingDialogue = isStartingDialogue;
+        }
+    }
+}
+</file>
+
+<file path="Script/ScriptableObjects/DSDialogueSO.cs.meta">
+fileFormatVersion: 2
+guid: 59d7b3738a990024995e32e354368843
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant:
+</file>
+
+</files>
