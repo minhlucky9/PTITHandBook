@@ -26,6 +26,11 @@ public class PauseMenuUI : MonoBehaviour
 
     }
 
+    public void OpenCommentGoogleForm()
+    {
+        Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSfNynGQccbdIsXf2bIIz8KR03o7ej0N2gKkpKCG1FuZFx-GZA/viewform?usp=header");
+    }    
+
     public void Resume()
     {
       
